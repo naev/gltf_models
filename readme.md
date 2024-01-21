@@ -1,0 +1,1 @@
+ This repository exists to get the 3D models ready in gltf format for use in game. It's designed to be usable as a plugin, and when put in the plugin directory, will activate 3D model for the existing models.
