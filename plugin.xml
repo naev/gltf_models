@@ -1,0 +1,7 @@
+<plugin name="3D Ship Test">
+ <author>Naev DevTeam</author>
+ <version>0.1</version>
+ <compatibility>^0\.11\..*</compatibility>
+ <description>Test 3D ships.</description>
+ <source>https://naev.org</source>
+</plugin>
