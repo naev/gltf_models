@@ -9,9 +9,14 @@
 	"scene":0,
 	"scenes":[
 		{
-			"name":"Scene",
+			"name":"body",
 			"nodes":[
-				0,
+				0
+			]
+		},
+		{
+			"name":"engine",
+			"nodes":[
 				1
 			]
 		}
@@ -117,9 +122,9 @@
 		},
 		{
 			"emissiveFactor":[
-				1,
-				1,
-				1
+            1,
+            0.05,
+            0.05
 			],
 			"extensions":{
 				"KHR_materials_emissive_strength":{
@@ -129,13 +134,11 @@
 			"name":"engine_glow.mat",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.05283196270465851,
-					0.05017620325088501,
-					1
-				],
-				"metallicFactor":0,
-				"roughnessFactor":0.5
+					0,
+					0,
+					0,
+					0.8
+				]
 			}
 		}
 	],

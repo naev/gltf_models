@@ -9,9 +9,14 @@
 	"scene":0,
 	"scenes":[
 		{
-			"name":"Scene",
+			"name":"body",
 			"nodes":[
-				0,
+				0
+			]
+		},
+		{
+			"name":"engine",
+			"nodes":[
 				1
 			]
 		}

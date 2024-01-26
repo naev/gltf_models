@@ -9,9 +9,14 @@
 	"scene":0,
 	"scenes":[
 		{
-			"name":"Scene",
+			"name":"body",
 			"nodes":[
-				0,
+				0
+			]
+		},
+		{
+			"name":"engine",
+			"nodes":[
 				1
 			]
 		}
@@ -80,7 +85,7 @@
 					"emissiveStrength":2
 				}
 			},
-			"name":"engine.mat",
+			"name":"engine_glow.mat",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0,
