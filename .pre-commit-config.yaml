@@ -30,3 +30,8 @@ repos:
       entry: bash -c 'for x in "$@"; do gltf-transform validate --format csv "$x" || exit 1 ; done' --
       files: .*\.gltf
       language: system
+    - id: optipng
+      name: PNG Optimizer
+      entry: optipng
+      types: [png]
+      language: system
