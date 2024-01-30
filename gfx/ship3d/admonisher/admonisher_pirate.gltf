@@ -127,8 +127,8 @@
     {
       "name": "body.mat",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.8,
+        "metallicFactor": 0.0,
         "baseColorTexture": {
           "index": 0
         }
