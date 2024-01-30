@@ -108,6 +108,10 @@
     {
       "source": 0,
       "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
     }
   ],
   "images": [
@@ -115,6 +119,11 @@
       "name": "admonisher",
       "mimeType": "image/png",
       "uri": "base_pirate.png"
+    },
+    {
+      "name": "admonisher_normal",
+      "mimeType": "image/png",
+      "uri": "normal.png"
     }
   ],
   "buffers": [
@@ -132,6 +141,10 @@
         "baseColorTexture": {
           "index": 0
         }
+      },
+      "normalTexture": {
+         "scale": 0.03,
+         "index": 1
       }
     },
     {
