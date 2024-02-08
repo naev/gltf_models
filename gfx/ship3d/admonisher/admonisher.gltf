@@ -1,99 +1,106 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.0-alpha.5",
     "version": "2.0"
   },
   "accessors": [
     {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5424,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 960,
+      "bufferView": 0,
+      "byteOffset": 10848
+    },
+    {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3693,
+      "count": 5146,
       "max": [
-        20.75931167602539,
-        15.46957015991211,
-        15.999835968017578
+        20.791532516479492,
+        14.619941711425781,
+        19.631935119628906
       ],
       "min": [
-        -20.75931167602539,
-        -15.46491813659668,
-        -15.999835968017578
+        -20.791532516479492,
+        -16.33315658569336,
+        -12.453353881835938
       ],
-      "bufferView": 0,
+      "bufferView": 1,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3693,
-      "bufferView": 0,
+      "count": 5146,
+      "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3693,
-      "bufferView": 0,
+      "count": 5146,
+      "bufferView": 1,
       "byteOffset": 24
     },
     {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 5146,
+      "bufferView": 1,
+      "byteOffset": 32
+    },
+    {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 253,
+      "count": 704,
       "max": [
-        7.286111831665039,
-        -11.321737289428711,
-        2.0088772773742676
+        7.312418460845947,
+        -11.281217575073242,
+        2.032766580581665
       ],
       "min": [
-        -7.286110877990723,
-        -17.48455047607422,
-        -7.490333557128906
+        -7.312418460845947,
+        -17.484548568725586,
+        -7.5029616355896
       ],
-      "bufferView": 1,
+      "bufferView": 2,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 253,
-      "bufferView": 1,
+      "count": 704,
+      "bufferView": 2,
       "byteOffset": 12
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 14064,
-      "bufferView": 2,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 942,
-      "bufferView": 2,
-      "byteOffset": 28128
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 118176,
-      "byteStride": 32,
+      "byteLength": 12768,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12768,
+      "byteLength": 205840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 118176,
-      "byteLength": 6072,
+      "byteOffset": 218608,
+      "byteLength": 16896,
       "byteStride": 24,
       "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 124248,
-      "byteLength": 30012,
-      "target": 34963
     }
   ],
   "samplers": [
@@ -106,96 +113,161 @@
   ],
   "textures": [
     {
+      "source": 2,
+      "sampler": 0
+    },
+    {
       "source": 0,
       "sampler": 0
     },
     {
       "source": 1,
       "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 0
     }
   ],
   "images": [
     {
-      "name": "admonisher",
+      "name": "admonisherGLO",
       "mimeType": "image/png",
-      "uri": "base.png"
+      "uri": "admonisherGLO.png"
     },
     {
-      "name": "admonisher_normal",
+      "name": "AO_bake",
       "mimeType": "image/png",
-      "uri": "normal.png"
+      "uri": "AO_bake.png"
+    },
+    {
+      "name": "admonisher",
+      "mimeType": "image/png",
+      "uri": "admonisher.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
     }
   ],
   "buffers": [
     {
       "uri": "admonisher.bin",
-      "byteLength": 154260
+      "byteLength": 235504
     }
   ],
   "materials": [
     {
-      "name": "body.mat",
+      "name": "base",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
-        "metallicFactor": 0.2,
+        "metallicFactor": 0.20000000298023224,
         "baseColorTexture": {
           "index": 0
         }
       },
-      "normalTexture": {
-         "scale": 0.03,
-         "index": 1
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 1
       }
     },
     {
-      "name": "engine.mat",
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.20000000298023224,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 1
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 1
+      }
+    },
+    {
+      "name": "glow_standard",
+      "extras": {
+        "NAEV_noShadows": true
+      },
+      "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0,
           0,
           0,
-          0.5
+          1
         ]
       },
       "emissiveFactor": [
-        0,
-        0.2,
+        0.0032543239649385214,
+        0.19496029615402222,
         1
-      ],
-      "extensions": {
-        "KHR_materials_emissive_strength": {
-          "emissiveStrength": 2
-        }
-      }
+      ]
     }
   ],
   "meshes": [
     {
-      "name": "body",
+      "name": "base",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
           },
           "mode": 4,
           "material": 0,
-          "indices": 5
+          "indices": 0
         }
       ]
     },
     {
-      "name": "engine",
+      "name": "base",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 3,
-            "NORMAL": 4
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
           },
           "mode": 4,
           "material": 1,
-          "indices": 6
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "glow",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 1
         }
       ]
     }
@@ -203,30 +275,30 @@
   "nodes": [
     {
       "name": "body",
-      "translation": [
-        0,
-        -0.800000011920929,
-        0
-      ],
       "rotation": [
         0.7071068286895752,
         0,
         0,
         0.7071068286895752
-      ],
-      "scale": [
-        0.22449804842472076,
-        0.22449804842472076,
-        0.22449804842472076
       ],
       "mesh": 0
     },
     {
-      "name": "engine",
-      "translation": [
+      "name": "body_glow",
+      "rotation": [
+        0.7071068286895752,
         0,
-        -0.800000011920929,
-        0
+        0,
+        0.7071068286895752
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "glow",
+      "translation": [
+        0.00492533715441823,
+        -3.5869317054748535,
+        -0.9851344227790833
       ],
       "rotation": [
         0.7071068286895752,
@@ -235,16 +307,16 @@
         0.7071068286895752
       ],
       "scale": [
-        0.22449804842472076,
-        0.22449804842472076,
-        0.22449804842472076
+        0.994879961013794,
+        0.994879961013794,
+        0.994879961013794
       ],
-      "mesh": 1
+      "mesh": 2
     }
   ],
   "scenes": [
     {
-      "name": "body",
+      "name": "base",
       "nodes": [
         0
       ]
@@ -252,12 +324,10 @@
     {
       "name": "engine",
       "nodes": [
-        1
+        1,
+        2
       ]
     }
   ],
-  "scene": 0,
-  "extensionsUsed": [
-    "KHR_materials_emissive_strength"
-  ]
+  "scene": 0
 }
