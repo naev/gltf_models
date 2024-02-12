@@ -1,0 +1,342 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6150,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 240,
+      "bufferView": 0,
+      "byteOffset": 12300
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2998,
+      "max": [
+        4.879873752593994,
+        6.292307376861572,
+        2.8879363536834717
+      ],
+      "min": [
+        -4.879873752593994,
+        -4.707692623138428,
+        -5.634792804718018
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2998,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2998,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 49,
+      "max": [
+        0.41873204708099365,
+        -2.310122489929199,
+        0.4082334637641907
+      ],
+      "min": [
+        -0.41873204708099365,
+        -4.982481956481934,
+        -0.40823304653167725
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 49,
+      "bufferView": 2,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 12780,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12780,
+      "byteLength": 95936,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 108716,
+      "byteLength": 1176,
+      "byteStride": 24,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "freighter05_emission",
+      "mimeType": "image/png",
+      "uri": "freighter05_emission.png"
+    },
+    {
+      "name": "freighter05_normal",
+      "mimeType": "image/png",
+      "uri": "freighter05_normal.png"
+    },
+    {
+      "name": "AO_bake",
+      "mimeType": "image/png",
+      "uri": "AO_bake.png"
+    },
+    {
+      "name": "freighter05_diffuse",
+      "mimeType": "image/png",
+      "uri": "freighter05_diffuse.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "taciturnity.bin",
+      "byteLength": 109892
+    }
+  ],
+  "materials": [
+    {
+      "name": "base",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.20000000298023224,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.20000000298023224,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 4
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "glow_standard",
+      "extras": {
+        "NAEV_noShadows": true
+      },
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0.0032543239649385214,
+        0.19496029615402222,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "glow",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "base",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.6499999761581421,
+        0.6499999761581421,
+        0.6499999761581421
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "base_glow",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.6499999761581421,
+        0.6499999761581421,
+        0.6499999761581421
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "glow",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "base",
+      "extras": {
+        "BBB_props": {}
+      },
+      "nodes": [
+        0
+      ]
+    },
+    {
+      "name": "engine",
+      "extras": {
+        "BBB_props": {}
+      },
+      "nodes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 1
+}
