@@ -7,30 +7,30 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 1944,
+      "count": 3168,
       "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 1044,
+      "count": 360,
       "bufferView": 0,
-      "byteOffset": 3888
+      "byteOffset": 6336
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 949,
+      "count": 2017,
       "max": [
-        3.2839999198913574,
-        3.722369909286499,
-        0.5487719774246216
+        3.284674882888794,
+        3.671672821044922,
+        0.9196699857711792
       ],
       "min": [
-        -3.2839999198913574,
-        -1.8768099546432495,
-        -0.45893600583076477
+        -3.285324811935425,
+        -2.122696876525879,
+        -0.6911700963973999
       ],
       "bufferView": 1,
       "byteOffset": 0
@@ -38,30 +38,30 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 949,
+      "count": 2017,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 949,
+      "count": 2017,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 664,
+      "count": 264,
       "max": [
-        0.6499999761581421,
-        2.063999891281128,
-        0.7739480137825012
+        1.5240600109100342,
+        -2.6291449069976807,
+        0.24722599983215332
       ],
       "min": [
-        -0.6499999761581421,
-        -2.072000026702881,
-        -0.8368920087814331
+        -1.5240600109100342,
+        -4.511364459991455,
+        -0.5488330125808716
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -69,37 +69,30 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 664,
+      "count": 264,
       "bufferView": 2,
       "byteOffset": 12
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 664,
-      "bufferView": 2,
-      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 5976,
+      "byteLength": 7056,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 5976,
-      "byteLength": 30368,
+      "byteOffset": 7056,
+      "byteLength": 64544,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 36344,
-      "byteLength": 21248,
-      "byteStride": 32,
+      "byteOffset": 71600,
+      "byteLength": 6336,
+      "byteStride": 24,
       "target": 34962
     }
   ],
@@ -113,57 +106,117 @@
   ],
   "textures": [
     {
+      "source": 2,
+      "sampler": 0
+    },
+    {
       "source": 0,
       "sampler": 0
     },
     {
       "source": 1,
       "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 0
     }
   ],
   "images": [
     {
-      "name": "llama_catamaran",
-      "mimeType": "image/jpeg",
-      "uri": "llama_catamaran.jpg"
+      "name": "llamaGLO",
+      "mimeType": "image/png",
+      "uri": "llamaGLO.png"
     },
     {
-      "name": "llama_body",
-      "mimeType": "image/jpeg",
-      "uri": "llama_body.jpg"
+      "name": "AO_bake_body",
+      "mimeType": "image/png",
+      "uri": "AO_bake_body.png"
+    },
+    {
+      "name": "llama",
+      "mimeType": "image/png",
+      "uri": "llama.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
     }
   ],
   "buffers": [
     {
       "uri": "llama.bin",
-      "byteLength": 57592
+      "byteLength": 77936
     }
   ],
   "materials": [
     {
-      "name": "base_catamaran",
+      "name": "base",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
         "metallicFactor": 0.20000000298023224,
         "baseColorTexture": {
           "index": 0
         }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
       }
     },
     {
-      "name": "base_body",
+      "name": "base_glow",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
         "metallicFactor": 0.20000000298023224,
         "baseColorTexture": {
-          "index": 1
+          "index": 0
         }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 2
       }
+    },
+    {
+      "name": "glow_standard",
+      "extras": {
+        "NAEV_noShadows": true
+      },
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0.0032543239649385214,
+        0.19496029615402222,
+        1
+      ]
     }
   ],
   "meshes": [
     {
-      "name": "catamaran",
+      "name": "base",
       "primitives": [
         {
           "attributes": {
@@ -178,16 +231,30 @@
       ]
     },
     {
-      "name": "body",
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "glow.001",
       "primitives": [
         {
           "attributes": {
             "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "NORMAL": 6
           },
           "mode": 4,
-          "material": 1,
+          "material": 2,
           "indices": 1
         }
       ]
@@ -195,59 +262,84 @@
   ],
   "nodes": [
     {
-      "name": "catamaran",
+      "name": "base",
+      "translation": [
+        0.00035629738704301417,
+        0.12527871131896973,
+        0.2235007882118225
+      ],
       "rotation": [
         0.7071068286895752,
         0,
         0,
         0.7071068286895752
+      ],
+      "scale": [
+        1.0965317487716675,
+        1.0965317487716675,
+        1.0965317487716675
       ],
       "mesh": 0
     },
     {
-      "name": "body",
+      "name": "base_glow",
+      "translation": [
+        0.00035629738704301417,
+        0.12527871131896973,
+        0.2235007882118225
+      ],
       "rotation": [
         0.7071068286895752,
         0,
         0,
         0.7071068286895752
+      ],
+      "scale": [
+        1.0965317487716675,
+        1.0965317487716675,
+        1.0965317487716675
       ],
       "mesh": 1
     },
     {
-      "name": "catamaran_glow",
+      "name": "glow",
+      "translation": [
+        0,
+        0,
+        1.0727512836456299
+      ],
       "rotation": [
         0.7071068286895752,
         0,
         0,
         0.7071068286895752
       ],
-      "mesh": 0
-    },
-    {
-      "name": "body_glow",
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
+      "scale": [
+        1.0965317487716675,
+        1.0965317487716675,
+        1.0965317487716675
       ],
-      "mesh": 1
+      "mesh": 2
     }
   ],
   "scenes": [
     {
       "name": "base",
+      "extras": {
+        "BBB_props": {}
+      },
       "nodes": [
-        0,
-        1
+        0
       ]
     },
     {
       "name": "engine",
+      "extras": {
+        "BBB_props": {}
+      },
       "nodes": [
-        2,
-        3
+        1,
+        2
       ]
     }
   ],
