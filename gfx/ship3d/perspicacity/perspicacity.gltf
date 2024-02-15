@@ -7,7 +7,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 7002,
+      "count": 7398,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 480,
       "bufferView": 0,
-      "byteOffset": 14004
+      "byteOffset": 14796
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3053,
+      "count": 3202,
       "max": [
         3.4582715034484863,
         7.1666669845581055,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3053,
+      "count": 3202,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3053,
+      "count": 3202,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -78,19 +78,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 14964,
+      "byteLength": 15756,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 14964,
-      "byteLength": 97696,
+      "byteOffset": 15756,
+      "byteLength": 102464,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 112660,
+      "byteOffset": 118220,
       "byteLength": 2352,
       "byteStride": 24,
       "target": 34962
@@ -106,7 +106,7 @@
   ],
   "textures": [
     {
-      "source": 3,
+      "source": 2,
       "sampler": 0
     },
     {
@@ -118,15 +118,19 @@
       "sampler": 0
     },
     {
-      "source": 2,
+      "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 4,
       "sampler": 0
     }
   ],
   "images": [
     {
-      "name": "GLO_bake",
+      "name": "fighter05_emission",
       "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "uri": "fighter05_emission.png"
     },
     {
       "name": "fighter05_normal",
@@ -134,25 +138,30 @@
       "uri": "fighter05_normal.png"
     },
     {
-      "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
-    },
-    {
       "name": "fighter05_diffuse",
       "mimeType": "image/png",
       "uri": "fighter05_diffuse.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
+    },
+    {
+      "name": "AO_bake",
+      "mimeType": "image/png",
+      "uri": "AO_bake.png"
     }
   ],
   "buffers": [
     {
       "uri": "perspicacity.bin",
-      "byteLength": 115012
+      "byteLength": 120572
     }
   ],
   "materials": [
     {
-      "name": "base_glow",
+      "name": "base",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
         "metallicFactor": 0.20000000298023224,
@@ -170,9 +179,30 @@
       },
       "normalTexture": {
         "index": 2
+      }
+    },
+    {
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.20000000298023224,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "normalTexture": {
+        "index": 2
       },
       "occlusionTexture": {
-        "index": 3
+        "index": 4
       }
     },
     {
@@ -207,6 +237,7 @@
             "TEXCOORD_0": 4
           },
           "mode": 4,
+          "material": 0,
           "indices": 0
         }
       ]
@@ -221,7 +252,7 @@
             "TEXCOORD_0": 4
           },
           "mode": 4,
-          "material": 0,
+          "material": 1,
           "indices": 0
         }
       ]
@@ -235,7 +266,7 @@
             "NORMAL": 6
           },
           "mode": 4,
-          "material": 1,
+          "material": 2,
           "indices": 1
         }
       ]
@@ -291,23 +322,17 @@
   "scenes": [
     {
       "name": "base",
-      "extras": {
-        "BBB_props": {}
-      },
       "nodes": [
         0
       ]
     },
     {
       "name": "engine",
-      "extras": {
-        "BBB_props": {}
-      },
       "nodes": [
         1,
         2
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }
