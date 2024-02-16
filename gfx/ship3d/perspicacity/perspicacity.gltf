@@ -7,7 +7,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 7398,
+      "count": 7266,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 480,
       "bufferView": 0,
-      "byteOffset": 14796
+      "byteOffset": 14532
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3202,
+      "count": 1884,
       "max": [
         3.4582715034484863,
         7.1666669845581055,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3202,
+      "count": 1884,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3202,
+      "count": 1884,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -78,19 +78,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 15756,
+      "byteLength": 15492,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 15756,
-      "byteLength": 102464,
+      "byteOffset": 15492,
+      "byteLength": 60288,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 118220,
+      "byteOffset": 75780,
       "byteLength": 2352,
       "byteStride": 24,
       "target": 34962
@@ -156,7 +156,7 @@
   "buffers": [
     {
       "uri": "perspicacity.bin",
-      "byteLength": 120572
+      "byteLength": 78132
     }
   ],
   "materials": [
@@ -322,6 +322,11 @@
   "scenes": [
     {
       "name": "base",
+      "extras": {
+        "BBB_props": {
+          "image_settings": {}
+        }
+      },
       "nodes": [
         0
       ]
