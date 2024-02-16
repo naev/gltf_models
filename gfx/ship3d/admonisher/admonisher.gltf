@@ -317,12 +317,18 @@
   "scenes": [
     {
       "name": "base",
+      "extras": {
+        "BBB_props": {}
+      },
       "nodes": [
         0
       ]
     },
     {
       "name": "engine",
+      "extras": {
+        "BBB_props": {}
+      },
       "nodes": [
         1,
         2
