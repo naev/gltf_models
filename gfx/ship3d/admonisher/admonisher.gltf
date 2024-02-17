@@ -14,9 +14,16 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 960,
+      "count": 384,
       "bufferView": 0,
       "byteOffset": 10848
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 288,
+      "bufferView": 0,
+      "byteOffset": 11616
     },
     {
       "type": "VEC3",
@@ -59,16 +66,16 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 704,
+      "count": 258,
       "max": [
-        7.312418460845947,
-        -11.281217575073242,
-        2.032766580581665
+        6.720641613006592,
+        4.538235664367676,
+        5.453281879425049
       ],
       "min": [
-        -7.312418460845947,
-        -17.484548568725586,
-        -7.5029616355896
+        -6.720641613006592,
+        -7,
+        -2.7456417083740234
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -76,30 +83,75 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 704,
+      "count": 258,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 258,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        6.967620849609375,
+        -11.609443664550781,
+        5.3138251304626465
+      ],
+      "min": [
+        -6.967620849609375,
+        -19.200271606445312,
+        -3.4259660243988037
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 192,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 192,
+      "bufferView": 3,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 12768,
+      "byteLength": 12192,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 12768,
+      "byteOffset": 12192,
       "byteLength": 205840,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 218608,
-      "byteLength": 16896,
-      "byteStride": 24,
+      "byteOffset": 218032,
+      "byteLength": 8256,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 226288,
+      "byteLength": 6144,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -127,6 +179,14 @@
     {
       "source": 3,
       "sampler": 0
+    },
+    {
+      "source": 5,
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
     }
   ],
   "images": [
@@ -149,12 +209,22 @@
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
+    },
+    {
+      "name": "gradient_cyan2",
+      "mimeType": "image/png",
+      "uri": "gradient_cyan2.png"
+    },
+    {
+      "name": "gradient_cyan",
+      "mimeType": "image/png",
+      "uri": "gradient_cyan.png"
     }
   ],
   "buffers": [
     {
       "uri": "admonisher.bin",
-      "byteLength": 235504
+      "byteLength": 232432
     }
   ],
   "materials": [
@@ -204,24 +274,54 @@
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
+      "name": "engine glow",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0,
-          0,
-          0,
+          0.3277781903743744,
+          1,
           1
-        ]
+        ],
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 4
+        }
       },
       "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
+        1,
+        1,
         1
-      ]
+      ],
+      "emissiveTexture": {
+        "index": 5
+      }
+    },
+    {
+      "name": "engine glow",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.3277781903743744,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 4
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 5
+      }
     }
   ],
   "meshes": [
@@ -230,10 +330,10 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4,
-            "TEXCOORD_1": 5
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5,
+            "TEXCOORD_1": 6
           },
           "mode": 4,
           "material": 0,
@@ -246,10 +346,10 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4,
-            "TEXCOORD_1": 5
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5,
+            "TEXCOORD_1": 6
           },
           "mode": 4,
           "material": 1,
@@ -258,16 +358,32 @@
       ]
     },
     {
-      "name": "glow",
+      "name": "Cylinder",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
           },
           "mode": 4,
           "material": 2,
           "indices": 1
+        }
+      ]
+    },
+    {
+      "name": "base.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 2
         }
       ]
     }
@@ -294,11 +410,11 @@
       "mesh": 1
     },
     {
-      "name": "glow",
+      "name": "engine_beam.001",
       "translation": [
-        0.00492533715441823,
-        -3.5869317054748535,
-        -0.9851344227790833
+        0,
+        0.30000001192092896,
+        -16.078500747680664
       ],
       "rotation": [
         0.7071068286895752,
@@ -306,12 +422,17 @@
         0,
         0.7071068286895752
       ],
-      "scale": [
-        0.994879961013794,
-        0.994879961013794,
-        0.994879961013794
-      ],
       "mesh": 2
+    },
+    {
+      "name": "engine_glow",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "mesh": 3
     }
   ],
   "scenes": [
@@ -331,9 +452,10 @@
       },
       "nodes": [
         1,
-        2
+        2,
+        3
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }
