@@ -52,6 +52,13 @@
     {
       "type": "VEC3",
       "componentType": 5126,
+      "count": 1884,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
       "count": 98,
       "max": [
         1.2187319993972778,
@@ -63,14 +70,14 @@
         -4.008161544799805,
         -0.4082334339618683
       ],
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 98,
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 12
     }
   ],
@@ -91,6 +98,13 @@
     {
       "buffer": 0,
       "byteOffset": 75780,
+      "byteLength": 22608,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 98388,
       "byteLength": 2352,
       "byteStride": 24,
       "target": 34962
@@ -156,7 +170,7 @@
   "buffers": [
     {
       "uri": "perspicacity.bin",
-      "byteLength": 78132
+      "byteLength": 100740
     }
   ],
   "materials": [
@@ -247,8 +261,8 @@
       "primitives": [
         {
           "attributes": {
+            "NORMAL": 5,
             "POSITION": 2,
-            "NORMAL": 3,
             "TEXCOORD_0": 4
           },
           "mode": 4,
@@ -262,8 +276,8 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 6,
+            "NORMAL": 7
           },
           "mode": 4,
           "material": 2,
@@ -339,5 +353,5 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }
