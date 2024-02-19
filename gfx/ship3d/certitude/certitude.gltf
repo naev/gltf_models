@@ -7,7 +7,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 20556,
+      "count": 20208,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 2016,
       "bufferView": 0,
-      "byteOffset": 41112
+      "byteOffset": 40416
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4878,
+      "count": 7720,
       "max": [
         4.644822120666504,
         6.200000286102295,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4878,
+      "count": 7720,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4878,
+      "count": 7720,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -78,19 +78,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 45144,
+      "byteLength": 44448,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 45144,
-      "byteLength": 156096,
+      "byteOffset": 44448,
+      "byteLength": 247040,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 201240,
+      "byteOffset": 291488,
       "byteLength": 8736,
       "byteStride": 24,
       "target": 34962
@@ -120,18 +120,22 @@
     {
       "source": 2,
       "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
     }
   ],
   "images": [
     {
-      "name": "certitudeGLO",
+      "name": "certitude_emission",
       "mimeType": "image/png",
-      "uri": "certitudeGLO.png"
+      "uri": "certitude_emission.png"
     },
     {
-      "name": "certitudeNORM",
+      "name": "certitude_normal",
       "mimeType": "image/png",
-      "uri": "certitudeNORM.png"
+      "uri": "certitude_normal.png"
     },
     {
       "name": "AO_bake",
@@ -139,15 +143,20 @@
       "uri": "AO_bake.png"
     },
     {
-      "name": "certitude",
+      "name": "certitude_diffuse",
       "mimeType": "image/png",
-      "uri": "certitude.png"
+      "uri": "certitude_diffuse.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
     }
   ],
   "buffers": [
     {
       "uri": "certitude.bin",
-      "byteLength": 209976
+      "byteLength": 300224
     }
   ],
   "materials": [
@@ -194,6 +203,30 @@
         0.19496029615402222,
         1
       ]
+    },
+    {
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.20000000298023224,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 4
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
     }
   ],
   "meshes": [
@@ -223,6 +256,21 @@
           "mode": 4,
           "material": 1,
           "indices": 1
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 0
         }
       ]
     }
@@ -286,7 +334,7 @@
         0.6000000238418579,
         0.6000000238418579
       ],
-      "mesh": 0
+      "mesh": 2
     }
   ],
   "scenes": [
@@ -304,5 +352,5 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }

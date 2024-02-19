@@ -7,7 +7,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 21018,
+      "count": 19986,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 720,
       "bufferView": 0,
-      "byteOffset": 42036
+      "byteOffset": 39972
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4681,
+      "count": 4498,
       "max": [
         6.720722198486328,
         10.067678451538086,
@@ -30,7 +30,7 @@
       "min": [
         -6.720722198486328,
         -11.845742225646973,
-        -6.320304870605469
+        -6.32030725479126
       ],
       "bufferView": 1,
       "byteOffset": 0
@@ -38,23 +38,16 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4681,
+      "count": 4498,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4681,
+      "count": 4498,
       "bufferView": 1,
       "byteOffset": 24
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 4681,
-      "bufferView": 2,
-      "byteOffset": 0
     },
     {
       "type": "VEC3",
@@ -70,14 +63,14 @@
         -7.139499664306641,
         -2.3059818744659424
       ],
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 147,
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 12
     }
   ],
@@ -85,26 +78,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 43476,
+      "byteLength": 41412,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 43476,
-      "byteLength": 149792,
+      "byteOffset": 41412,
+      "byteLength": 143936,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 193268,
-      "byteLength": 56172,
-      "byteStride": 12,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 249440,
+      "byteOffset": 185348,
       "byteLength": 3528,
       "byteStride": 24,
       "target": 34962
@@ -120,7 +106,7 @@
   ],
   "textures": [
     {
-      "source": 2,
+      "source": 3,
       "sampler": 0
     },
     {
@@ -132,15 +118,24 @@
       "sampler": 0
     },
     {
-      "source": 3,
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 4,
       "sampler": 0
     }
   ],
   "images": [
     {
-      "name": "apprehensionGLO",
+      "name": "apprehension_emission",
       "mimeType": "image/png",
-      "uri": "apprehensionGLO.png"
+      "uri": "apprehension_emission.png"
+    },
+    {
+      "name": "apprehension_normal",
+      "mimeType": "image/png",
+      "uri": "apprehension_normal.png"
     },
     {
       "name": "AO_bake",
@@ -148,9 +143,9 @@
       "uri": "AO_bake.png"
     },
     {
-      "name": "apprehension",
+      "name": "apprehension_diffuse",
       "mimeType": "image/png",
-      "uri": "apprehension.png"
+      "uri": "apprehension_diffuse.png"
     },
     {
       "name": "GLO_bake",
@@ -161,7 +156,7 @@
   "buffers": [
     {
       "uri": "apprehension.bin",
-      "byteLength": 252968
+      "byteLength": 188876
     }
   ],
   "materials": [
@@ -182,8 +177,11 @@
       "emissiveTexture": {
         "index": 1
       },
-      "occlusionTexture": {
+      "normalTexture": {
         "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
       }
     },
     {
@@ -201,10 +199,13 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 4
+      },
+      "normalTexture": {
+        "index": 2
       },
       "occlusionTexture": {
-        "index": 2
+        "index": 3
       }
     },
     {
@@ -249,8 +250,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 5,
             "POSITION": 2,
+            "NORMAL": 3,
             "TEXCOORD_0": 4
           },
           "mode": 4,
@@ -264,8 +265,8 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7
+            "POSITION": 5,
+            "NORMAL": 6
           },
           "mode": 4,
           "material": 2,
@@ -276,7 +277,7 @@
   ],
   "nodes": [
     {
-      "name": "base",
+      "name": "Mesh",
       "rotation": [
         0.7071068286895752,
         0,
@@ -342,5 +343,5 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }
