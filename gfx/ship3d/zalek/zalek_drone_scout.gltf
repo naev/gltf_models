@@ -1,0 +1,365 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5016,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 720,
+      "bufferView": 0,
+      "byteOffset": 10032
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3484,
+      "max": [
+        5.422115802764893,
+        4.587637424468994,
+        9.13187313079834
+      ],
+      "min": [
+        -10.456608772277832,
+        -8.185826301574707,
+        -15.301140785217285
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3484,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3484,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 496,
+      "max": [
+        1.25,
+        0.2573968470096588,
+        1.25
+      ],
+      "min": [
+        -1.25,
+        -2.7562360763549805,
+        -1.25
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 496,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 496,
+      "bufferView": 2,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 11472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11472,
+      "byteLength": 111488,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 122960,
+      "byteLength": 15872,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 33648,
+      "wrapT": 33648
+    }
+  ],
+  "textures": [
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 1
+    },
+    {
+      "source": 4,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "zalek_scout_droneGLO",
+      "mimeType": "image/png",
+      "uri": "zalek_scout_droneGLO.png"
+    },
+    {
+      "name": "AO_bake_scout",
+      "mimeType": "image/png",
+      "uri": "AO_bake_scout.png"
+    },
+    {
+      "name": "zalek_scout_drone",
+      "mimeType": "image/png",
+      "uri": "zalek_scout_drone.png"
+    },
+    {
+      "name": "zalek_glow",
+      "mimeType": "image/png",
+      "uri": "zalek_glow.png"
+    },
+    {
+      "name": "GLO_bake_scout",
+      "mimeType": "image/png",
+      "uri": "GLO_bake_scout.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "zalek_drone_scout.bin",
+      "byteLength": 138832
+    }
+  ],
+  "materials": [
+    {
+      "name": "base",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      }
+    },
+    {
+      "name": "engine_glow_zalek_drone",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 3
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2
+        }
+      }
+    },
+    {
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 4
+      },
+      "occlusionTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "glow_torus",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 1
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "base",
+      "translation": [
+        0,
+        0,
+        0.6818252205848694
+      ],
+      "scale": [
+        0.2633160352706909,
+        0.2633160352706909,
+        0.2633160352706909
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "glow_torus",
+      "translation": [
+        0,
+        0,
+        -3.246539354324341
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.8573740720748901,
+        0.8573740720748901,
+        0.8573740720748901
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "base_glow",
+      "translation": [
+        0,
+        0,
+        0.6818252205848694
+      ],
+      "scale": [
+        0.2633160352706909,
+        0.2633160352706909,
+        0.2633160352706909
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "base",
+      "extras": {
+        "BBB_props": {
+          "image_settings": {},
+          "guided_ui": 1,
+          "dir_path": "//bake/"
+        }
+      },
+      "nodes": [
+        0
+      ]
+    },
+    {
+      "name": "engine",
+      "nodes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 1,
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ]
+}
