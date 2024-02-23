@@ -14,9 +14,16 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 480,
+      "count": 1344,
       "bufferView": 0,
       "byteOffset": 18072
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2112,
+      "bufferView": 0,
+      "byteOffset": 20760
     },
     {
       "type": "VEC3",
@@ -52,16 +59,16 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 98,
+      "count": 302,
       "max": [
-        1.2187319993972778,
-        -1.84309983253479,
-        0.4082333445549011
+        0.625,
+        0.25,
+        0.25
       ],
       "min": [
-        -1.2187319993972778,
-        -3.980987548828125,
-        -0.4082334339618683
+        -0.625,
+        -0.25,
+        -0.25
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -69,30 +76,75 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 98,
+      "count": 302,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 302,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 472,
+      "max": [
+        0.6874999403953552,
+        0.1874999701976776,
+        0.3125
+      ],
+      "min": [
+        -0.6874999403953552,
+        -0.13258254528045654,
+        -0.3125
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 472,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 472,
+      "bufferView": 3,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 19032,
+      "byteLength": 24984,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 19032,
+      "byteOffset": 24984,
       "byteLength": 74528,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 93560,
-      "byteLength": 2352,
-      "byteStride": 24,
+      "byteOffset": 99512,
+      "byteLength": 9664,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 109176,
+      "byteLength": 15104,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -124,6 +176,14 @@
     {
       "source": 4,
       "sampler": 0
+    },
+    {
+      "source": 5,
+      "sampler": 0
+    },
+    {
+      "source": 6,
+      "sampler": 0
     }
   ],
   "images": [
@@ -151,12 +211,22 @@
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
+    },
+    {
+      "name": "gradient_pale",
+      "mimeType": "image/png",
+      "uri": "gradient_pale.png"
+    },
+    {
+      "name": "gradient_pale_striped",
+      "mimeType": "image/png",
+      "uri": "gradient_pale_striped.png"
     }
   ],
   "buffers": [
     {
       "uri": "scintillation.bin",
-      "byteLength": 95912
+      "byteLength": 124280
     }
   ],
   "materials": [
@@ -185,26 +255,6 @@
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
-      "alphaMode": "BLEND",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0,
-          0,
-          1
-        ]
-      },
-      "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
-        1
-      ]
-    },
-    {
       "name": "base_glow",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
@@ -227,6 +277,44 @@
       "occlusionTexture": {
         "index": 3
       }
+    },
+    {
+      "name": "engine_glow_thurion_solid",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 5
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 5
+      }
+    },
+    {
+      "name": "engine_glow_thurion_light",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 6
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 6
+      }
     }
   ],
   "meshes": [
@@ -235,9 +323,9 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
           },
           "mode": 4,
           "material": 0,
@@ -246,31 +334,47 @@
       ]
     },
     {
-      "name": "glow",
+      "name": "base",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
           },
           "mode": 4,
           "material": 1,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "Sphere.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 2,
           "indices": 1
         }
       ]
     },
     {
-      "name": "base",
+      "name": "Sphere.004",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
           "mode": 4,
-          "material": 2,
-          "indices": 0
+          "material": 3,
+          "indices": 2
         }
       ]
     }
@@ -292,21 +396,6 @@
       "mesh": 0
     },
     {
-      "name": "glow",
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
-      ],
-      "scale": [
-        0.44999998807907104,
-        0.800000011920929,
-        0.44999998807907104
-      ],
-      "mesh": 1
-    },
-    {
       "name": "base_glow",
       "rotation": [
         0.7071068286895752,
@@ -319,7 +408,42 @@
         0.44999998807907104,
         0.44999998807907104
       ],
+      "mesh": 1
+    },
+    {
+      "name": "inner_glow",
+      "translation": [
+        0,
+        0,
+        -1.6749999523162842
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
       "mesh": 2
+    },
+    {
+      "name": "long_glow",
+      "translation": [
+        0,
+        0,
+        -1.7999999523162842
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        2.5,
+        1
+      ],
+      "mesh": 3
     }
   ],
   "scenes": [
@@ -333,9 +457,10 @@
       "name": "engine",
       "nodes": [
         1,
-        2
+        2,
+        3
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }
