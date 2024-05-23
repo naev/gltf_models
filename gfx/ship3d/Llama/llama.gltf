@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v3.10.0",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2017,
+      "count": 1892,
       "max": [
         3.284674882888794,
         3.671672821044922,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2017,
+      "count": 1892,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2017,
+      "count": 1892,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 264,
+      "count": 168,
       "max": [
         1.5240600109100342,
         -2.6291449069976807,
@@ -69,9 +69,16 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 264,
+      "count": 168,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 168,
+      "bufferView": 2,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
@@ -84,15 +91,15 @@
     {
       "buffer": 0,
       "byteOffset": 7056,
-      "byteLength": 64544,
+      "byteLength": 60544,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 71600,
-      "byteLength": 6336,
-      "byteStride": 24,
+      "byteOffset": 67600,
+      "byteLength": 5376,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -120,6 +127,10 @@
     {
       "source": 3,
       "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
     }
   ],
   "images": [
@@ -142,12 +153,17 @@
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
+    },
+    {
+      "name": "gradient_blue_orange",
+      "mimeType": "image/png",
+      "uri": "gradient_blue_orange.png"
     }
   ],
   "buffers": [
     {
       "uri": "llama.bin",
-      "byteLength": 77936
+      "byteLength": 72976
     }
   ],
   "materials": [
@@ -194,24 +210,23 @@
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
+      "name": "engine_glow_melendez",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 4
+        }
       },
       "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
+        1,
+        1,
         1
-      ]
+      ],
+      "emissiveTexture": {
+        "index": 4
+      }
     }
   ],
   "meshes": [
@@ -251,7 +266,8 @@
         {
           "attributes": {
             "POSITION": 5,
-            "NORMAL": 6
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
           },
           "mode": 4,
           "material": 2,
