@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v3.10.0",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4880,
+      "count": 4876,
       "max": [
         3.2500078678131104,
         2.6177380084991455,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4880,
+      "count": 4876,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4880,
+      "count": 4876,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 38184,
-      "byteLength": 156160,
+      "byteLength": 156032,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 194344,
+      "byteOffset": 194216,
       "byteLength": 17344,
       "byteStride": 32,
       "target": 34962
@@ -133,15 +133,11 @@
       "sampler": 0
     },
     {
-      "source": 5,
-      "sampler": 0
-    },
-    {
-      "source": 7,
-      "sampler": 0
-    },
-    {
       "source": 6,
+      "sampler": 0
+    },
+    {
+      "source": 5,
       "sampler": 0
     }
   ],
@@ -172,11 +168,6 @@
       "uri": "GLO_bake.png"
     },
     {
-      "name": "starbridge_metallic.png-starbridge_roughness.png",
-      "mimeType": "image/png",
-      "uri": "starbridge_metallic_png-starbridge_roughness_png.png"
-    },
-    {
       "name": "gradient_cyan2",
       "mimeType": "image/png",
       "uri": "gradient_cyan2.png"
@@ -190,7 +181,7 @@
   "buffers": [
     {
       "uri": "starbridge.bin",
-      "byteLength": 211688
+      "byteLength": 211560
     }
   ],
   "materials": [
@@ -226,7 +217,7 @@
           "index": 0
         },
         "metallicRoughnessTexture": {
-          "index": 5
+          "index": 3
         }
       },
       "emissiveFactor": [
@@ -239,6 +230,9 @@
       },
       "normalTexture": {
         "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
       }
     },
     {
@@ -254,7 +248,7 @@
         "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
-          "index": 6
+          "index": 5
         }
       },
       "emissiveFactor": [
@@ -263,7 +257,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 7
+        "index": 6
       }
     }
   ],

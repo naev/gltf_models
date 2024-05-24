@@ -290,9 +290,9 @@
       "uri": "Cracked_Flesh_DarkRed.png"
     },
     {
-      "name": "OrangeExaust",
+      "name": "gradient_soromid",
       "mimeType": "image/png",
-      "uri": "OrangeExaust-1.png"
+      "uri": "gradient_soromid.png"
     }
   ],
   "buffers": [
@@ -303,9 +303,9 @@
   ],
   "materials": [
     {
-      "name": "hull",
+      "name": "soromid_hull",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.6000000238418579,
         "metallicFactor": 0.20000000298023224,
         "baseColorTexture": {
           "index": 0
@@ -313,9 +313,9 @@
       }
     },
     {
-      "name": "flesh_veined",
+      "name": "soromid_flesh",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.75,
+        "roughnessFactor": 0.8999999761581421,
         "metallicFactor": 0,
         "baseColorTexture": {
           "index": 1
@@ -323,7 +323,8 @@
       }
     },
     {
-      "name": "exhaust",
+      "name": "soromid_glow",
+      "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.4171862304210663,
@@ -352,9 +353,9 @@
       }
     },
     {
-      "name": "carapace",
+      "name": "soromid_carapace",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.6499999761581421,
+        "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
           "index": 3
@@ -362,9 +363,10 @@
       }
     },
     {
-      "name": "Material.004",
+      "name": "soromid_engine_glow",
+      "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
           "index": 4
@@ -524,7 +526,7 @@
       ]
     }
   ],
-  "scene": 0,
+  "scene": 1,
   "extensionsUsed": [
     "KHR_materials_emissive_strength"
   ]
