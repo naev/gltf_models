@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3906,
+      "count": 2672,
       "max": [
         8.264359474182129,
         10.327528953552246,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3906,
+      "count": 2672,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3906,
+      "count": 2672,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3906,
+      "count": 2672,
       "bufferView": 1,
       "byteOffset": 32
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 8280,
-      "byteLength": 156240,
+      "byteLength": 106880,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 164520,
+      "byteOffset": 115160,
       "byteLength": 792,
       "byteStride": 24,
       "target": 34962
@@ -154,7 +154,7 @@
   "buffers": [
     {
       "uri": "gawain.bin",
-      "byteLength": 165312
+      "byteLength": 115952
     }
   ],
   "materials": [

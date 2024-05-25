@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -28,7 +28,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2329,
+      "count": 3749,
       "max": [
         9.620436668395996,
         7.407106399536133,
@@ -45,14 +45,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2329,
+      "count": 3749,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2329,
+      "count": 3749,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -129,20 +129,20 @@
     {
       "buffer": 0,
       "byteOffset": 24984,
-      "byteLength": 74528,
+      "byteLength": 119968,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 99512,
+      "byteOffset": 144952,
       "byteLength": 9664,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 109176,
+      "byteOffset": 154616,
       "byteLength": 15104,
       "byteStride": 32,
       "target": 34962
@@ -226,7 +226,7 @@
   "buffers": [
     {
       "uri": "scintillation.bin",
-      "byteLength": 124280
+      "byteLength": 169720
     }
   ],
   "materials": [

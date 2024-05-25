@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2180,
+      "count": 3890,
       "max": [
         8.13798713684082,
         8.670421600341797,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2180,
+      "count": 3890,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2180,
+      "count": 3890,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -84,13 +84,13 @@
     {
       "buffer": 0,
       "byteOffset": 18636,
-      "byteLength": 69760,
+      "byteLength": 124480,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 88396,
+      "byteOffset": 143116,
       "byteLength": 6144,
       "byteStride": 24,
       "target": 34962
@@ -156,7 +156,7 @@
   "buffers": [
     {
       "uri": "virtuosity.bin",
-      "byteLength": 94540
+      "byteLength": 149260
     }
   ],
   "materials": [

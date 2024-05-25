@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 1892,
+      "count": 2017,
       "max": [
         3.284674882888794,
         3.671672821044922,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 1892,
+      "count": 2017,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 1892,
+      "count": 2017,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 168,
+      "count": 264,
       "max": [
         1.5240600109100342,
         -2.6291449069976807,
@@ -69,14 +69,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 168,
+      "count": 264,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 168,
+      "count": 264,
       "bufferView": 2,
       "byteOffset": 24
     }
@@ -91,14 +91,14 @@
     {
       "buffer": 0,
       "byteOffset": 7056,
-      "byteLength": 60544,
+      "byteLength": 64544,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 67600,
-      "byteLength": 5376,
+      "byteOffset": 71600,
+      "byteLength": 8448,
       "byteStride": 32,
       "target": 34962
     }
@@ -163,7 +163,7 @@
   "buffers": [
     {
       "uri": "llama.bin",
-      "byteLength": 72976
+      "byteLength": 80048
     }
   ],
   "materials": [

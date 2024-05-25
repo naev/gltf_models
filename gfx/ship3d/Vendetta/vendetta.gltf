@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2719,
+      "count": 2879,
       "max": [
         40.13653564453125,
         33.61769104003906,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2719,
+      "count": 2879,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2719,
+      "count": 2879,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -84,13 +84,13 @@
     {
       "buffer": 0,
       "byteOffset": 10980,
-      "byteLength": 87008,
+      "byteLength": 92128,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 97988,
+      "byteOffset": 103108,
       "byteLength": 3744,
       "byteStride": 24,
       "target": 34962
@@ -147,7 +147,7 @@
   "buffers": [
     {
       "uri": "vendetta.bin",
-      "byteLength": 101732
+      "byteLength": 106852
     }
   ],
   "materials": [

@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4876,
+      "count": 4880,
       "max": [
         3.2500078678131104,
         2.6177380084991455,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4876,
+      "count": 4880,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4876,
+      "count": 4880,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 38184,
-      "byteLength": 156032,
+      "byteLength": 156160,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 194216,
+      "byteOffset": 194344,
       "byteLength": 17344,
       "byteStride": 32,
       "target": 34962
@@ -181,7 +181,7 @@
   "buffers": [
     {
       "uri": "starbridge.bin",
-      "byteLength": 211560
+      "byteLength": 211688
     }
   ],
   "materials": [

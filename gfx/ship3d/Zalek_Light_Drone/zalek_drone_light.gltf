@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -109,6 +109,12 @@
       "minFilter": 9987,
       "wrapS": 10497,
       "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 33648,
+      "wrapT": 33648
     }
   ],
   "textures": [
@@ -126,7 +132,7 @@
     },
     {
       "source": 3,
-      "sampler": 0
+      "sampler": 1
     }
   ],
   "images": [

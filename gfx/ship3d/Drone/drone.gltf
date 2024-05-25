@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6143,
+      "count": 6303,
       "max": [
         24.094749450683594,
         36.68780517578125,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6143,
+      "count": 6303,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 6143,
+      "count": 6303,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -84,13 +84,13 @@
     {
       "buffer": 0,
       "byteOffset": 18612,
-      "byteLength": 196576,
+      "byteLength": 201696,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 215188,
+      "byteOffset": 220308,
       "byteLength": 960,
       "byteStride": 24,
       "target": 34962
@@ -147,7 +147,7 @@
   "buffers": [
     {
       "uri": "drone.bin",
-      "byteLength": 216148
+      "byteLength": 221268
     }
   ],
   "materials": [

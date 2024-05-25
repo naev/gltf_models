@@ -1,27 +1,27 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 4254,
+      "count": 4266,
       "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 528,
+      "count": 1248,
       "bufferView": 0,
-      "byteOffset": 8508
+      "byteOffset": 8532
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4162,
+      "count": 2330,
       "max": [
         7.473485946655273,
         12.81501579284668,
@@ -38,30 +38,30 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4162,
+      "count": 2330,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4162,
+      "count": 2330,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 368,
+      "count": 864,
       "max": [
-        0.7361660003662109,
+        0.9728282690048218,
         -5.391160011291504,
-        1.2517930269241333
+        1.501780390739441
       ],
       "min": [
-        -0.7361649870872498,
-        -10.932747840881348,
-        -0.3034360110759735
+        -0.9728282690048218,
+        -11.452544212341309,
+        -0.5534230470657349
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -69,30 +69,37 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 368,
+      "count": 864,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 864,
+      "bufferView": 2,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 9564,
+      "byteLength": 11028,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 9564,
-      "byteLength": 133184,
+      "byteOffset": 11028,
+      "byteLength": 74560,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 142748,
-      "byteLength": 8832,
-      "byteStride": 24,
+      "byteOffset": 85588,
+      "byteLength": 27648,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -116,6 +123,14 @@
     {
       "source": 1,
       "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 0
     }
   ],
   "images": [
@@ -133,12 +148,22 @@
       "name": "schroedinger",
       "mimeType": "image/png",
       "uri": "schroedinger.png"
+    },
+    {
+      "name": "gradient_cyan2",
+      "mimeType": "image/png",
+      "uri": "gradient_cyan2.png"
+    },
+    {
+      "name": "gradient_cyan",
+      "mimeType": "image/png",
+      "uri": "gradient_cyan.png"
     }
   ],
   "buffers": [
     {
       "uri": "schroedinger.bin",
-      "byteLength": 151580
+      "byteLength": 113236
     }
   ],
   "materials": [
@@ -146,7 +171,7 @@
       "name": "base",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "metallicFactor": 0.5,
         "baseColorTexture": {
           "index": 0
         }
@@ -164,24 +189,29 @@
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
+      "name": "engine_glow_nexus",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0,
-          0,
-          0,
+          0.3277781903743744,
+          1,
           1
-        ]
+        ],
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 3
+        }
       },
       "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
+        1,
+        1,
         1
-      ]
+      ],
+      "emissiveTexture": {
+        "index": 4
+      }
     }
   ],
   "meshes": [
@@ -206,7 +236,8 @@
         {
           "attributes": {
             "POSITION": 5,
-            "NORMAL": 6
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
           },
           "mode": 4,
           "material": 1,
@@ -237,7 +268,7 @@
       "mesh": 0
     },
     {
-      "name": "schroedinger.001",
+      "name": "glow",
       "rotation": [
         0.7071068286895752,
         0,

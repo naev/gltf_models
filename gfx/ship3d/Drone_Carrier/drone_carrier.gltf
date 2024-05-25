@@ -1,13 +1,13 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 14736,
+      "count": 14760,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 5664,
       "bufferView": 0,
-      "byteOffset": 29472
+      "byteOffset": 29520
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6168,
+      "count": 6338,
       "max": [
         3.9143381118774414,
         1.0653986930847168,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6168,
+      "count": 6338,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 6168,
+      "count": 6338,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -85,19 +85,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 40800,
+      "byteLength": 40848,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 40800,
-      "byteLength": 197376,
+      "byteOffset": 40848,
+      "byteLength": 202816,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 238176,
+      "byteOffset": 243664,
       "byteLength": 59072,
       "byteStride": 32,
       "target": 34962
@@ -172,7 +172,7 @@
   "buffers": [
     {
       "uri": "drone_carrier.bin",
-      "byteLength": 297248
+      "byteLength": 302736
     }
   ],
   "materials": [

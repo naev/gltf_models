@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -42,7 +42,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 12885,
+      "count": 14784,
       "max": [
         21.77281951904297,
         99.78910827636719,
@@ -59,21 +59,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 12885,
+      "count": 14784,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 12885,
+      "count": 14784,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3734,
+      "count": 4224,
       "max": [
         14.072198867797852,
         94.14407348632812,
@@ -90,21 +90,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3734,
+      "count": 4224,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3734,
+      "count": 4224,
       "bufferView": 2,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6148,
+      "count": 6608,
       "max": [
         11.28168773651123,
         94.69015502929688,
@@ -121,21 +121,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 6148,
+      "count": 6608,
       "bufferView": 3,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 6148,
+      "count": 6608,
       "bufferView": 3,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4087,
+      "count": 4720,
       "max": [
         18.746944427490234,
         90.23664093017578,
@@ -152,14 +152,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4087,
+      "count": 4720,
       "bufferView": 4,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4087,
+      "count": 4720,
       "bufferView": 4,
       "byteOffset": 24
     },
@@ -205,34 +205,34 @@
     {
       "buffer": 0,
       "byteOffset": 90120,
-      "byteLength": 412320,
+      "byteLength": 473088,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 502440,
-      "byteLength": 119488,
+      "byteOffset": 563208,
+      "byteLength": 135168,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 621928,
-      "byteLength": 196736,
+      "byteOffset": 698376,
+      "byteLength": 211456,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 818664,
-      "byteLength": 130784,
+      "byteOffset": 909832,
+      "byteLength": 151040,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 949448,
+      "byteOffset": 1060872,
       "byteLength": 9600,
       "byteStride": 32,
       "target": 34962
@@ -252,19 +252,19 @@
       "sampler": 0
     },
     {
-      "source": 1,
-      "sampler": 0
-    },
-    {
       "source": 2,
       "sampler": 0
     },
     {
-      "source": 4,
+      "source": 1,
       "sampler": 0
     },
     {
       "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 4,
       "sampler": 0
     },
     {
@@ -279,16 +279,6 @@
       "uri": "hull_VDarkGray.png"
     },
     {
-      "name": "Cracked_Flesh_DarkRed",
-      "mimeType": "image/png",
-      "uri": "Cracked_Flesh_DarkRed.png"
-    },
-    {
-      "name": "OrangeExaust",
-      "mimeType": "image/png",
-      "uri": "OrangeExaust.png"
-    },
-    {
       "name": "RedBrownVeinedFlesh_glow",
       "mimeType": "image/png",
       "uri": "RedBrownVeinedFlesh_glow.png"
@@ -299,6 +289,16 @@
       "uri": "RedBrownVeinedFlesh.png"
     },
     {
+      "name": "OrangeExaust",
+      "mimeType": "image/png",
+      "uri": "OrangeExaust.png"
+    },
+    {
+      "name": "Cracked_Flesh_DarkRed",
+      "mimeType": "image/png",
+      "uri": "Cracked_Flesh_DarkRed.png"
+    },
+    {
       "name": "gradient_soromid",
       "mimeType": "image/png",
       "uri": "gradient_soromid.png"
@@ -307,7 +307,7 @@
   "buffers": [
     {
       "uri": "ira.bin",
-      "byteLength": 959048
+      "byteLength": 1070472
     }
   ],
   "materials": [
@@ -322,13 +322,21 @@
       }
     },
     {
-      "name": "soromid_carapace",
+      "name": "soromid_flesh",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.75,
+        "roughnessFactor": 0.8999999761581421,
         "metallicFactor": 0,
         "baseColorTexture": {
           "index": 1
         }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 2
       }
     },
     {
@@ -344,29 +352,6 @@
         "roughnessFactor": 0.5,
         "metallicFactor": 0,
         "baseColorTexture": {
-          "index": 2
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 2
-      },
-      "extensions": {
-        "KHR_materials_emissive_strength": {
-          "emissiveStrength": 2
-        }
-      }
-    },
-    {
-      "name": "soromid_flesh",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.8999999761581421,
-        "metallicFactor": 0,
-        "baseColorTexture": {
           "index": 3
         }
       },
@@ -376,7 +361,22 @@
         1
       ],
       "emissiveTexture": {
-        "index": 4
+        "index": 3
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2
+        }
+      }
+    },
+    {
+      "name": "soromid_carapace",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 4
+        }
       }
     },
     {

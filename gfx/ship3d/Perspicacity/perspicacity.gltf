@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -52,13 +52,6 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 1884,
-      "bufferView": 2,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
       "count": 98,
       "max": [
         1.2187319993972778,
@@ -70,14 +63,14 @@
         -4.008161544799805,
         -0.4082334339618683
       ],
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 98,
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 12
     }
   ],
@@ -98,13 +91,6 @@
     {
       "buffer": 0,
       "byteOffset": 75780,
-      "byteLength": 22608,
-      "byteStride": 12,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 98388,
       "byteLength": 2352,
       "byteStride": 24,
       "target": 34962
@@ -120,7 +106,7 @@
   ],
   "textures": [
     {
-      "source": 2,
+      "source": 3,
       "sampler": 0
     },
     {
@@ -132,7 +118,7 @@
       "sampler": 0
     },
     {
-      "source": 3,
+      "source": 2,
       "sampler": 0
     },
     {
@@ -152,6 +138,11 @@
       "uri": "fighter05_normal.png"
     },
     {
+      "name": "AO_bake",
+      "mimeType": "image/png",
+      "uri": "AO_bake.png"
+    },
+    {
       "name": "fighter05_diffuse",
       "mimeType": "image/png",
       "uri": "fighter05_diffuse.png"
@@ -160,17 +151,12 @@
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
-    },
-    {
-      "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
     }
   ],
   "buffers": [
     {
       "uri": "perspicacity.bin",
-      "byteLength": 100740
+      "byteLength": 78132
     }
   ],
   "materials": [
@@ -193,6 +179,9 @@
       },
       "normalTexture": {
         "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
       }
     },
     {
@@ -210,13 +199,13 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 4
       },
       "normalTexture": {
         "index": 2
       },
       "occlusionTexture": {
-        "index": 4
+        "index": 3
       }
     },
     {
@@ -261,8 +250,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 5,
             "POSITION": 2,
+            "NORMAL": 3,
             "TEXCOORD_0": 4
           },
           "mode": 4,
@@ -276,8 +265,8 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7
+            "POSITION": 5,
+            "NORMAL": 6
           },
           "mode": 4,
           "material": 2,
@@ -353,5 +342,5 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }

@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -113,19 +113,19 @@
   ],
   "textures": [
     {
-      "source": 0,
-      "sampler": 0
-    },
-    {
-      "source": 2,
-      "sampler": 0
-    },
-    {
       "source": 1,
       "sampler": 0
     },
     {
+      "source": 0,
+      "sampler": 0
+    },
+    {
       "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 2,
       "sampler": 0
     },
     {
@@ -134,6 +134,11 @@
     }
   ],
   "images": [
+    {
+      "name": "AO_bake",
+      "mimeType": "image/png",
+      "uri": "AO_bake.png"
+    },
     {
       "name": "rhino",
       "mimeType": "image/png",
@@ -153,11 +158,6 @@
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
-    },
-    {
-      "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
     }
   ],
   "buffers": [
@@ -175,10 +175,13 @@
         "baseColorTexture": {
           "index": 0
         }
+      },
+      "occlusionTexture": {
+        "index": 1
       }
     },
     {
-      "name": "engine_glow_standard",
+      "name": "engine_glow_nexus",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
@@ -190,7 +193,7 @@
         "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
-          "index": 1
+          "index": 2
         }
       },
       "emissiveFactor": [
@@ -199,7 +202,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 2
+        "index": 3
       }
     },
     {
@@ -217,10 +220,10 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 4
       },
       "occlusionTexture": {
-        "index": 4
+        "index": 1
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 988,
+      "count": 925,
       "max": [
         90.02510070800781,
         107.92500305175781,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 988,
+      "count": 925,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 988,
+      "count": 925,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 988,
+      "count": 925,
       "bufferView": 1,
       "byteOffset": 32
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 2520,
-      "byteLength": 39520,
+      "byteLength": 37000,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 42040,
+      "byteOffset": 39520,
       "byteLength": 1344,
       "byteStride": 24,
       "target": 34962
@@ -154,7 +154,7 @@
   "buffers": [
     {
       "uri": "hyena.bin",
-      "byteLength": 43384
+      "byteLength": 40864
     }
   ],
   "materials": [

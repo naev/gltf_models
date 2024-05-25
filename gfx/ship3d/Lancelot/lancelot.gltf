@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4918,
+      "count": 3404,
       "max": [
         12.807182312011719,
         18.272024154663086,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4918,
+      "count": 3404,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4918,
+      "count": 3404,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4918,
+      "count": 3404,
       "bufferView": 1,
       "byteOffset": 32
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 10956,
-      "byteLength": 196720,
+      "byteLength": 136160,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 207676,
+      "byteOffset": 147116,
       "byteLength": 8448,
       "byteStride": 24,
       "target": 34962
@@ -154,7 +154,7 @@
   "buffers": [
     {
       "uri": "lancelot.bin",
-      "byteLength": 216124
+      "byteLength": 155564
     }
   ],
   "materials": [

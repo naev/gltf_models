@@ -1,13 +1,13 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 7680,
+      "count": 7686,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,12 +16,12 @@
       "componentType": 5123,
       "count": 480,
       "bufferView": 0,
-      "byteOffset": 15360
+      "byteOffset": 15372
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4215,
+      "count": 5228,
       "max": [
         14.42020034790039,
         11.49325180053711,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4215,
+      "count": 5228,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4215,
+      "count": 5228,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -85,19 +85,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 16320,
+      "byteLength": 16332,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 16320,
-      "byteLength": 134880,
+      "byteOffset": 16332,
+      "byteLength": 167296,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 151200,
+      "byteOffset": 183628,
       "byteLength": 4864,
       "byteStride": 32,
       "target": 34962
@@ -163,7 +163,7 @@
   "buffers": [
     {
       "uri": "goddard.bin",
-      "byteLength": 156064
+      "byteLength": 188492
     }
   ],
   "materials": [

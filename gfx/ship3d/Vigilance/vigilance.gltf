@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -52,13 +52,6 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 1419,
-      "bufferView": 2,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
       "count": 37,
       "max": [
         1.4639058113098145,
@@ -70,14 +63,14 @@
         -0.8408492207527161,
         -15.619756698608398
       ],
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 37,
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 12
     }
   ],
@@ -98,13 +91,6 @@
     {
       "buffer": 0,
       "byteOffset": 56292,
-      "byteLength": 17028,
-      "byteStride": 12,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 73320,
       "byteLength": 888,
       "byteStride": 24,
       "target": 34962
@@ -170,7 +156,7 @@
   "buffers": [
     {
       "uri": "vigilance.bin",
-      "byteLength": 74208
+      "byteLength": 57180
     }
   ],
   "materials": [
@@ -224,23 +210,16 @@
     },
     {
       "name": "glow_dvaered",
-      "extras": {
-        "NAEV_noShadows": true
-      },
-      "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0,
-          0,
-          0,
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
           1
-        ]
-      },
-      "emissiveFactor": [
-        1,
-        0.20000000298023224,
-        0
-      ]
+        ],
+        "roughnessFactor": 0.4000000059604645,
+        "metallicFactor": 0
+      }
     }
   ],
   "meshes": [
@@ -264,8 +243,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 5,
             "POSITION": 2,
+            "NORMAL": 3,
             "TEXCOORD_0": 4
           },
           "mode": 4,
@@ -279,8 +258,8 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7
+            "POSITION": 5,
+            "NORMAL": 6
           },
           "mode": 4,
           "material": 2,

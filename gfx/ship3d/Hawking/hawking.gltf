@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -14,14 +14,14 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 852,
+      "count": 720,
       "bufferView": 0,
       "byteOffset": 16680
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4449,
+      "count": 4407,
       "max": [
         14.835463523864746,
         95.824462890625,
@@ -38,28 +38,28 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4449,
+      "count": 4407,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4449,
+      "count": 4407,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4449,
+      "count": 4407,
       "bufferView": 1,
       "byteOffset": 32
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 544,
+      "count": 492,
       "max": [
         3.9104480743408203,
         -62.28948211669922,
@@ -76,30 +76,37 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 544,
+      "count": 492,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 492,
+      "bufferView": 2,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 18384,
+      "byteLength": 18120,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 18384,
-      "byteLength": 177960,
+      "byteOffset": 18120,
+      "byteLength": 176280,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 196344,
-      "byteLength": 13056,
-      "byteStride": 24,
+      "byteOffset": 194400,
+      "byteLength": 15744,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -130,6 +137,14 @@
     },
     {
       "source": 4,
+      "sampler": 0
+    },
+    {
+      "source": 7,
+      "sampler": 0
+    },
+    {
+      "source": 6,
       "sampler": 0
     },
     {
@@ -165,14 +180,24 @@
     },
     {
       "name": "hawkingPPL",
+      "mimeType": "image/jpeg",
+      "uri": "hawkingPPL.jpg"
+    },
+    {
+      "name": "gradient_cyan2",
       "mimeType": "image/png",
-      "uri": "hawkingPPL.png"
+      "uri": "gradient_cyan2.png"
+    },
+    {
+      "name": "gradient_cyan",
+      "mimeType": "image/png",
+      "uri": "gradient_cyan.png"
     }
   ],
   "buffers": [
     {
       "uri": "hawking.bin",
-      "byteLength": 209400
+      "byteLength": 210144
     }
   ],
   "materials": [
@@ -232,30 +257,35 @@
       "extensions": {
         "KHR_materials_specular": {
           "specularTexture": {
-            "index": 5
+            "index": 7
           }
         }
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
+      "name": "engine_glow_nexus",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0,
-          0,
-          0,
+          0.3277781903743744,
+          1,
           1
-        ]
+        ],
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 5
+        }
       },
       "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
+        1,
+        1,
         1
-      ]
+      ],
+      "emissiveTexture": {
+        "index": 6
+      }
     }
   ],
   "meshes": [
@@ -297,7 +327,8 @@
         {
           "attributes": {
             "POSITION": 6,
-            "NORMAL": 7
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "mode": 4,
           "material": 2,

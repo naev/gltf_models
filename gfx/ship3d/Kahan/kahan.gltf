@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2792,
+      "count": 2282,
       "max": [
         2.895927667617798,
         6.882853984832764,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2792,
+      "count": 2282,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2792,
+      "count": 2282,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 106,
+      "count": 102,
       "max": [
         2.7684264183044434,
         -5.688499450683594,
@@ -69,14 +69,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 106,
+      "count": 102,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 106,
+      "count": 102,
       "bufferView": 2,
       "byteOffset": 24
     }
@@ -91,14 +91,14 @@
     {
       "buffer": 0,
       "byteOffset": 9828,
-      "byteLength": 89344,
+      "byteLength": 73024,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 99172,
-      "byteLength": 3392,
+      "byteOffset": 82852,
+      "byteLength": 3264,
       "byteStride": 32,
       "target": 34962
     }
@@ -172,7 +172,7 @@
   "buffers": [
     {
       "uri": "kahan.bin",
-      "byteLength": 102564
+      "byteLength": 86116
     }
   ],
   "materials": [

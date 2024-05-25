@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -564,7 +564,7 @@
       }
     },
     {
-      "name": "engine_glow_zalek_drone.001",
+      "name": "engine_glow_zalek_drone",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
         "metallicFactor": 0,

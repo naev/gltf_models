@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3320,
+      "count": 2483,
       "max": [
         4.856200218200684,
         9.401983261108398,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3320,
+      "count": 2483,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3320,
+      "count": 2483,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -84,13 +84,13 @@
     {
       "buffer": 0,
       "byteOffset": 10772,
-      "byteLength": 106240,
+      "byteLength": 79456,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 117012,
+      "byteOffset": 90228,
       "byteLength": 5760,
       "byteStride": 24,
       "target": 34962
@@ -138,7 +138,7 @@
   "buffers": [
     {
       "uri": "quicksilver.bin",
-      "byteLength": 122772
+      "byteLength": 95988
     }
   ],
   "materials": [
