@@ -14,14 +14,21 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 480,
+      "count": 7686,
       "bufferView": 0,
       "byteOffset": 15372
     },
     {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 480,
+      "bufferView": 0,
+      "byteOffset": 30744
+    },
+    {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 5228,
+      "count": 2598,
       "max": [
         14.42020034790039,
         11.49325180053711,
@@ -38,15 +45,46 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 5228,
+      "count": 2598,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 5228,
+      "count": 2598,
       "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5043,
+      "max": [
+        14.42020034790039,
+        11.49325180053711,
+        4.459696292877197
+      ],
+      "min": [
+        -14.42020034790039,
+        -8.829437255859375,
+        -3.4720332622528076
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5043,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 5043,
+      "bufferView": 2,
       "byteOffset": 24
     },
     {
@@ -63,21 +101,21 @@
         -6.890636920928955,
         -0.0530887246131897
       ],
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 152,
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 152,
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 24
     }
   ],
@@ -85,19 +123,26 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 16332,
+      "byteLength": 31704,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 16332,
-      "byteLength": 167296,
+      "byteOffset": 31704,
+      "byteLength": 83136,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 183628,
+      "byteOffset": 114840,
+      "byteLength": 161376,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 276216,
       "byteLength": 4864,
       "byteStride": 32,
       "target": 34962
@@ -163,15 +208,15 @@
   "buffers": [
     {
       "uri": "goddard.bin",
-      "byteLength": 188492
+      "byteLength": 281080
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -183,8 +228,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -233,9 +278,9 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
           },
           "mode": 4,
           "material": 0,
@@ -248,13 +293,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "mode": 4,
           "material": 1,
-          "indices": 0
+          "indices": 1
         }
       ]
     },
@@ -263,13 +308,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
           "mode": 4,
           "material": 2,
-          "indices": 1
+          "indices": 2
         }
       ]
     }
@@ -341,5 +386,5 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }

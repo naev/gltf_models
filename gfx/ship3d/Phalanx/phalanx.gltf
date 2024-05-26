@@ -14,7 +14,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 4224,
+      "count": 4512,
       "bufferView": 0,
       "byteOffset": 7068
     },
@@ -52,7 +52,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2816,
+      "count": 2999,
       "max": [
         0.7092470526695251,
         0.15386295318603516,
@@ -60,8 +60,8 @@
       ],
       "min": [
         -0.7092470526695251,
-        -0.08323892205953598,
-        -2.5091166496276855
+        -0.08323891460895538,
+        -2.5091168880462646
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -69,30 +69,37 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2816,
+      "count": 2999,
       "bufferView": 2,
       "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2999,
+      "bufferView": 2,
+      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 15516,
+      "byteLength": 16092,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 15516,
+      "byteOffset": 16092,
       "byteLength": 27424,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 42940,
-      "byteLength": 67584,
-      "byteStride": 24,
+      "byteOffset": 43516,
+      "byteLength": 95968,
+      "byteStride": 32,
       "target": 34962
     }
   ],
@@ -116,6 +123,10 @@
     {
       "source": 2,
       "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 0
     }
   ],
   "images": [
@@ -130,6 +141,11 @@
       "uri": "corv3.png"
     },
     {
+      "name": "gradient_orange",
+      "mimeType": "image/png",
+      "uri": "gradient_orange.png"
+    },
+    {
       "name": "GLO_bake",
       "mimeType": "image/png",
       "uri": "GLO_bake.png"
@@ -138,15 +154,15 @@
   "buffers": [
     {
       "uri": "phalanx.bin",
-      "byteLength": 110524
+      "byteLength": 139484
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -156,30 +172,29 @@
       }
     },
     {
-      "name": "glow_standard",
-      "extras": {
-        "NAEV_noShadows": true
-      },
+      "name": "engine_glow_dvaered",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "roughnessFactor": 0.75,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 2
+        }
       },
       "emissiveFactor": [
-        0.0032543239649385214,
-        0.19496029615402222,
+        1,
+        1,
         1
-      ]
+      ],
+      "emissiveTexture": {
+        "index": 2
+      }
     },
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -190,7 +205,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 2
+        "index": 3
       },
       "occlusionTexture": {
         "index": 1
@@ -219,7 +234,8 @@
         {
           "attributes": {
             "POSITION": 5,
-            "NORMAL": 6
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
           },
           "mode": 4,
           "material": 1,
@@ -287,5 +303,5 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }

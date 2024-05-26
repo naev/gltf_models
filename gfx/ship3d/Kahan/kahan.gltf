@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2282,
+      "count": 2792,
       "max": [
         2.895927667617798,
         6.882853984832764,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2282,
+      "count": 2792,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2282,
+      "count": 2792,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 9828,
-      "byteLength": 73024,
+      "byteLength": 89344,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 82852,
+      "byteOffset": 99172,
       "byteLength": 3264,
       "byteStride": 32,
       "target": 34962
@@ -172,15 +172,15 @@
   "buffers": [
     {
       "uri": "kahan.bin",
-      "byteLength": 86116
+      "byteLength": 102436
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.4000000059604645,
+        "metallicFactor": 0.800000011920929,
         "baseColorTexture": {
           "index": 0
         }
@@ -203,8 +203,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.4000000059604645,
+        "metallicFactor": 0.800000011920929,
         "baseColorTexture": {
           "index": 0
         }
@@ -341,5 +341,5 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }

@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4880,
+      "count": 5231,
       "max": [
         3.2500078678131104,
         2.6177380084991455,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4880,
+      "count": 5231,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4880,
+      "count": 5231,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 38184,
-      "byteLength": 156160,
+      "byteLength": 167392,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 194344,
+      "byteOffset": 205576,
       "byteLength": 17344,
       "byteStride": 32,
       "target": 34962
@@ -181,7 +181,7 @@
   "buffers": [
     {
       "uri": "starbridge.bin",
-      "byteLength": 211688
+      "byteLength": 222920
     }
   ],
   "materials": [

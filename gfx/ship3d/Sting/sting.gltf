@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v4.0.0-alpha.5",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -14,7 +14,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 4608,
+      "count": 13824,
       "bufferView": 0,
       "byteOffset": 33528
     },
@@ -52,10 +52,10 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3072,
+      "count": 9216,
       "max": [
         1.25,
-        0.25,
+        1.0705664157867432,
         1.25
       ],
       "min": [
@@ -69,14 +69,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3072,
+      "count": 9216,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3072,
+      "count": 9216,
       "bufferView": 2,
       "byteOffset": 24
     }
@@ -85,20 +85,20 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 42744,
+      "byteLength": 61176,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 42744,
+      "byteOffset": 61176,
       "byteLength": 336512,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 379256,
-      "byteLength": 98304,
+      "byteOffset": 397688,
+      "byteLength": 294912,
       "byteStride": 32,
       "target": 34962
     }
@@ -160,15 +160,15 @@
   "buffers": [
     {
       "uri": "sting.bin",
-      "byteLength": 477560
+      "byteLength": 692600
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
         }
@@ -180,8 +180,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
         }

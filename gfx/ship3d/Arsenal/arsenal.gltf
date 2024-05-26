@@ -1,0 +1,445 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.0.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 30714,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1200,
+      "bufferView": 0,
+      "byteOffset": 61428
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 195,
+      "bufferView": 0,
+      "byteOffset": 63828
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 10086,
+      "max": [
+        3.783012866973877,
+        2,
+        10.912857055664062
+      ],
+      "min": [
+        -3.783012866973877,
+        -1.4000003337860107,
+        -11.5
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 10086,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 10086,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 242,
+      "max": [
+        3.8780415058135986,
+        0.49363425374031067,
+        24.099998474121094
+      ],
+      "min": [
+        -3.8780415058135986,
+        -0.6818700432777405,
+        20.986469268798828
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 242,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 242,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 83,
+      "max": [
+        1.9132492542266846,
+        0.3932490944862366,
+        11.512898445129395
+      ],
+      "min": [
+        -1.9132492542266846,
+        -1.232330322265625,
+        -10.999999046325684
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 83,
+      "bufferView": 3,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 64220,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64220,
+      "byteLength": 322752,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 386972,
+      "byteLength": 7744,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 394716,
+      "byteLength": 1992,
+      "byteStride": 24,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
+    },
+    {
+      "source": 5,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "dvaered_freighter_emit",
+      "mimeType": "image/png",
+      "uri": "dvaered_freighter_emit.png"
+    },
+    {
+      "name": "dvaered_freighter_normal",
+      "mimeType": "image/png",
+      "uri": "dvaered_freighter_normal.png"
+    },
+    {
+      "name": "AO_bake-dvaered_freighter_roughness-dvaered_freighter_metallic",
+      "mimeType": "image/png",
+      "uri": "AO_bake-dvaered_freighter_roughness-dvaered_freighter_metallic.png"
+    },
+    {
+      "name": "dvaered_freighter_diffuse",
+      "mimeType": "image/png",
+      "uri": "dvaered_freighter_diffuse.png"
+    },
+    {
+      "name": "GLO_bake",
+      "mimeType": "image/png",
+      "uri": "GLO_bake.png"
+    },
+    {
+      "name": "gradient02_orange",
+      "mimeType": "image/png",
+      "uri": "gradient02_orange.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "arsenal.bin",
+      "byteLength": 396708
+    }
+  ],
+  "materials": [
+    {
+      "name": "base",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "base_glow",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 4
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "engine glow gradient.001",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 5
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 5
+      }
+    },
+    {
+      "name": "engine glow.001",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.300543874502182,
+          0,
+          1
+        ],
+        "roughnessFactor": 0.949999988079071,
+        "metallicFactor": 0
+      },
+      "emissiveFactor": [
+        1,
+        0.300543874502182,
+        0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "Sphere.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 1
+        }
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "base",
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        -1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "base_glow",
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        -1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "glow2",
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        -0.5,
+        -0.8500000238418579,
+        -0.5
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "glow1",
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        -1
+      ],
+      "mesh": 3
+    }
+  ],
+  "scenes": [
+    {
+      "name": "base",
+      "nodes": [
+        0
+      ]
+    },
+    {
+      "name": "engine",
+      "nodes": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "scene": 1
+}

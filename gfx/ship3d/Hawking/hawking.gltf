@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4407,
+      "count": 4449,
       "max": [
         14.835463523864746,
         95.824462890625,
@@ -38,21 +38,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4407,
+      "count": 4449,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4407,
+      "count": 4449,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4407,
+      "count": 4449,
       "bufferView": 1,
       "byteOffset": 32
     },
@@ -98,13 +98,13 @@
     {
       "buffer": 0,
       "byteOffset": 18120,
-      "byteLength": 176280,
+      "byteLength": 177960,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 194400,
+      "byteOffset": 196080,
       "byteLength": 15744,
       "byteStride": 32,
       "target": 34962
@@ -197,15 +197,15 @@
   "buffers": [
     {
       "uri": "hawking.bin",
-      "byteLength": 210144
+      "byteLength": 211824
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -232,8 +232,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -392,7 +392,7 @@
       ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "KHR_materials_specular"
   ]

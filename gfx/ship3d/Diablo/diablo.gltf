@@ -226,48 +226,6 @@
       "byteOffset": 24
     },
     {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 14319,
-      "bufferView": 7,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 5940,
-      "bufferView": 8,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 3550,
-      "bufferView": 9,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 2091,
-      "bufferView": 10,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 3892,
-      "bufferView": 11,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 3197,
-      "bufferView": 12,
-      "byteOffset": 0
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 24576,
@@ -281,21 +239,21 @@
         -1.9830840826034546,
         -1.25
       ],
-      "bufferView": 13,
+      "bufferView": 7,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 24576,
-      "bufferView": 13,
+      "bufferView": 7,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 24576,
-      "bufferView": 13,
+      "bufferView": 7,
       "byteOffset": 24
     }
   ],
@@ -351,48 +309,6 @@
     {
       "buffer": 0,
       "byteOffset": 1188936,
-      "byteLength": 114552,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1303488,
-      "byteLength": 47520,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1351008,
-      "byteLength": 28400,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1379408,
-      "byteLength": 16728,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1396136,
-      "byteLength": 31136,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1427272,
-      "byteLength": 25576,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1452848,
       "byteLength": 786432,
       "byteStride": 32,
       "target": 34962
@@ -431,10 +347,6 @@
     },
     {
       "source": 4,
-      "sampler": 0
-    },
-    {
-      "source": 5,
       "sampler": 1
     }
   ],
@@ -460,11 +372,6 @@
       "uri": "hexagonalLayerSteel_Red.png"
     },
     {
-      "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
-    },
-    {
       "name": "zalek_glow",
       "mimeType": "image/png",
       "uri": "zalek_glow.png"
@@ -473,15 +380,15 @@
   "buffers": [
     {
       "uri": "diablo.bin",
-      "byteLength": 2239280
+      "byteLength": 1975368
     }
   ],
   "materials": [
     {
       "name": "hull_grey",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
         }
@@ -490,8 +397,8 @@
     {
       "name": "hull_red",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 1
         }
@@ -524,7 +431,7 @@
     {
       "name": "steel_hex_grey",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.699999988079071,
         "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 2
@@ -534,127 +441,11 @@
     {
       "name": "steel_hex_red",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.699999988079071,
         "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 3
         }
-      }
-    },
-    {
-      "name": "hull_grey_glow",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
-        "baseColorTexture": {
-          "index": 0
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4,
-        "texCoord": 1
-      }
-    },
-    {
-      "name": "hull_red_glow",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
-        "baseColorTexture": {
-          "index": 1
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4,
-        "texCoord": 1
-      }
-    },
-    {
-      "name": "black_glow",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "metallicFactor": 0
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4
-      }
-    },
-    {
-      "name": "bloodred_glow",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.5,
-          0,
-          0,
-          1
-        ],
-        "metallicFactor": 0
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4
-      }
-    },
-    {
-      "name": "steel_hex_grey_glow",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.30000001192092896,
-        "baseColorTexture": {
-          "index": 2
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4,
-        "texCoord": 1
-      }
-    },
-    {
-      "name": "steel_hex_red_glow",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.30000001192092896,
-        "baseColorTexture": {
-          "index": 3
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 4,
-        "texCoord": 1
       }
     },
     {
@@ -663,7 +454,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "baseColorTexture": {
-          "index": 5
+          "index": 4
         }
       },
       "emissiveFactor": [
@@ -672,7 +463,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 5
+        "index": 4
       },
       "extensions": {
         "KHR_materials_emissive_strength": {
@@ -746,85 +537,16 @@
       ]
     },
     {
-      "name": "base_multi_glow.001",
-      "primitives": [
-        {
-          "attributes": {
-            "TEXCOORD_1": 23,
-            "POSITION": 7,
-            "NORMAL": 8,
-            "TEXCOORD_0": 9
-          },
-          "mode": 4,
-          "material": 6,
-          "indices": 0
-        },
-        {
-          "attributes": {
-            "TEXCOORD_1": 24,
-            "POSITION": 10,
-            "NORMAL": 11,
-            "TEXCOORD_0": 12
-          },
-          "mode": 4,
-          "material": 7,
-          "indices": 1
-        },
-        {
-          "attributes": {
-            "TEXCOORD_0": 25,
-            "POSITION": 13,
-            "NORMAL": 14
-          },
-          "mode": 4,
-          "material": 8,
-          "indices": 2
-        },
-        {
-          "attributes": {
-            "TEXCOORD_0": 26,
-            "POSITION": 15,
-            "NORMAL": 16
-          },
-          "mode": 4,
-          "material": 9,
-          "indices": 3
-        },
-        {
-          "attributes": {
-            "TEXCOORD_1": 27,
-            "POSITION": 17,
-            "NORMAL": 18,
-            "TEXCOORD_0": 19
-          },
-          "mode": 4,
-          "material": 10,
-          "indices": 4
-        },
-        {
-          "attributes": {
-            "TEXCOORD_1": 28,
-            "POSITION": 20,
-            "NORMAL": 21,
-            "TEXCOORD_0": 22
-          },
-          "mode": 4,
-          "material": 11,
-          "indices": 5
-        }
-      ]
-    },
-    {
       "name": "glow.003",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 29,
-            "NORMAL": 30,
-            "TEXCOORD_0": 31
+            "POSITION": 23,
+            "NORMAL": 24,
+            "TEXCOORD_0": 25
           },
           "mode": 4,
-          "material": 12,
+          "material": 6,
           "indices": 6
         }
       ]
@@ -839,15 +561,6 @@
         1.2345702648162842
       ],
       "mesh": 0
-    },
-    {
-      "name": "base_glow",
-      "scale": [
-        0.2237417995929718,
-        0.038158681243658066,
-        1.2345702648162842
-      ],
-      "mesh": 1
     },
     {
       "name": "engine01",
@@ -867,7 +580,16 @@
         0.2125961184501648,
         0.4899841547012329
       ],
-      "mesh": 2
+      "mesh": 1
+    },
+    {
+      "name": "base_multi_materials",
+      "scale": [
+        0.2237417995929718,
+        0.038158681243658066,
+        1.2345702648162842
+      ],
+      "mesh": 0
     }
   ],
   "scenes": [
@@ -885,7 +607,7 @@
       ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "KHR_materials_emissive_strength"
   ]

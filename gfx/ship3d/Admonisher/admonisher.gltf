@@ -28,7 +28,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3498,
+      "count": 1777,
       "max": [
         20.791532516479492,
         14.619941711425781,
@@ -45,21 +45,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 3498,
+      "count": 1777,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3498,
+      "count": 1777,
       "bufferView": 1,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 3498,
+      "count": 1777,
       "bufferView": 1,
       "byteOffset": 32
     },
@@ -136,20 +136,20 @@
     {
       "buffer": 0,
       "byteOffset": 12192,
-      "byteLength": 139920,
+      "byteLength": 71080,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 152112,
+      "byteOffset": 83272,
       "byteLength": 8256,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 160368,
+      "byteOffset": 91528,
       "byteLength": 6144,
       "byteStride": 32,
       "target": 34962
@@ -224,15 +224,15 @@
   "buffers": [
     {
       "uri": "admonisher.bin",
-      "byteLength": 166512
+      "byteLength": 97672
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -253,8 +253,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -457,5 +457,5 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 0
 }

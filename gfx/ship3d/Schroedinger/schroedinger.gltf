@@ -21,7 +21,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2330,
+      "count": 1422,
       "max": [
         7.473485946655273,
         12.81501579284668,
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 2330,
+      "count": 1422,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 2330,
+      "count": 1422,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -91,13 +91,13 @@
     {
       "buffer": 0,
       "byteOffset": 11028,
-      "byteLength": 74560,
+      "byteLength": 45504,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 85588,
+      "byteOffset": 56532,
       "byteLength": 27648,
       "byteStride": 32,
       "target": 34962
@@ -163,15 +163,15 @@
   "buffers": [
     {
       "uri": "schroedinger.bin",
-      "byteLength": 113236
+      "byteLength": 84180
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.5,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -298,5 +298,5 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }

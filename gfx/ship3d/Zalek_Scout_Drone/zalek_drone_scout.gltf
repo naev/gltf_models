@@ -176,8 +176,8 @@
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
         }
@@ -220,8 +220,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
         }
@@ -233,6 +233,9 @@
       ],
       "emissiveTexture": {
         "index": 4
+      },
+      "occlusionTexture": {
+        "index": 2
       }
     }
   ],

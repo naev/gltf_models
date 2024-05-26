@@ -14,9 +14,16 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 360,
+      "count": 3168,
       "bufferView": 0,
       "byteOffset": 6336
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 360,
+      "bufferView": 0,
+      "byteOffset": 12672
     },
     {
       "type": "VEC3",
@@ -52,6 +59,37 @@
     {
       "type": "VEC3",
       "componentType": 5126,
+      "count": 1262,
+      "max": [
+        3.284674882888794,
+        3.671672821044922,
+        0.9196699857711792
+      ],
+      "min": [
+        -3.285324811935425,
+        -2.122696876525879,
+        -0.6911700963973999
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1262,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1262,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
       "count": 264,
       "max": [
         1.5240600109100342,
@@ -63,21 +101,21 @@
         -4.511364459991455,
         -0.5488330125808716
       ],
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 264,
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 264,
-      "bufferView": 2,
+      "bufferView": 3,
       "byteOffset": 24
     }
   ],
@@ -85,19 +123,26 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 7056,
+      "byteLength": 13392,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 7056,
+      "byteOffset": 13392,
       "byteLength": 64544,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 71600,
+      "byteOffset": 77936,
+      "byteLength": 40384,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 118320,
       "byteLength": 8448,
       "byteStride": 32,
       "target": 34962
@@ -163,15 +208,15 @@
   "buffers": [
     {
       "uri": "llama.bin",
-      "byteLength": 80048
+      "byteLength": 126768
     }
   ],
   "materials": [
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -191,8 +236,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
         }
@@ -235,9 +280,9 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
           },
           "mode": 4,
           "material": 0,
@@ -250,13 +295,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "mode": 4,
           "material": 1,
-          "indices": 0
+          "indices": 1
         }
       ]
     },
@@ -265,13 +310,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
           "mode": 4,
           "material": 2,
-          "indices": 1
+          "indices": 2
         }
       ]
     }
