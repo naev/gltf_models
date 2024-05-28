@@ -194,9 +194,9 @@
       "uri": "AO_bake.png"
     },
     {
-      "name": "kestrel",
+      "name": "kestrel_pirate",
       "mimeType": "image/png",
-      "uri": "kestrel.png"
+      "uri": "kestrel_pirate.png"
     },
     {
       "name": "gradient_cyan2",
@@ -224,8 +224,8 @@
     {
       "name": "base",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.20000000298023224,
-        "metallicFactor": 0.699999988079071,
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.5,
         "baseColorTexture": {
           "index": 0
         }
@@ -265,8 +265,8 @@
     {
       "name": "base_glow",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.20000000298023224,
-        "metallicFactor": 0.699999988079071,
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.5,
         "baseColorTexture": {
           "index": 0
         }
