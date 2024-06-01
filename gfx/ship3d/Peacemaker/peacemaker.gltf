@@ -7,7 +7,7 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 15237,
+      "count": 15756,
       "bufferView": 0,
       "byteOffset": 0
     },
@@ -16,19 +16,19 @@
       "componentType": 5123,
       "count": 864,
       "bufferView": 0,
-      "byteOffset": 30476
+      "byteOffset": 31512
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 7278,
+      "count": 7407,
       "max": [
         3.6766622066497803,
         2.967916488647461,
         8.048049926757812
       ],
       "min": [
-        -3.509995460510254,
+        -3.6766622066497803,
         -6.683332920074463,
         -8.199999809265137
       ],
@@ -38,14 +38,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 7278,
+      "count": 7407,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 7278,
+      "count": 7407,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -85,19 +85,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 32204,
+      "byteLength": 33240,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 32204,
-      "byteLength": 232896,
+      "byteOffset": 33240,
+      "byteLength": 237024,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 265100,
+      "byteOffset": 270264,
       "byteLength": 21504,
       "byteStride": 32,
       "target": 34962
@@ -140,9 +140,9 @@
       "uri": "AO_bake.png"
     },
     {
-      "name": "peacemaker_diffuse",
+      "name": "peacemaker_diffuse2",
       "mimeType": "image/png",
-      "uri": "peacemaker_diffuse.png"
+      "uri": "peacemaker_diffuse2.png"
     },
     {
       "name": "gradient_cyan2",
@@ -163,7 +163,7 @@
   "buffers": [
     {
       "uri": "peacemaker.bin",
-      "byteLength": 286604
+      "byteLength": 291768
     }
   ],
   "materials": [
@@ -324,5 +324,5 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1
 }
