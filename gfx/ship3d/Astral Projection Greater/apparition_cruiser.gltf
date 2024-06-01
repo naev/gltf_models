@@ -1,0 +1,180 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.0.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 22866,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2844,
+      "bufferView": 0,
+      "byteOffset": 45732
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 10418,
+      "max": [
+        2.7699999809265137,
+        1.385000228881836,
+        3.088507652282715
+      ],
+      "min": [
+        -2.7699999809265137,
+        -1.385000228881836,
+        -4.33927583694458
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 10418,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1068,
+      "max": [
+        2.75,
+        1.375000238418579,
+        4.900000095367432
+      ],
+      "min": [
+        -2.75,
+        -1.375000238418579,
+        -3.4000000953674316
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1068,
+      "bufferView": 2,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 51420,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 51420,
+      "byteLength": 250032,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 301452,
+      "byteLength": 25632,
+      "byteStride": 24,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "apparition_cruiser.bin",
+      "byteLength": 327084
+    }
+  ],
+  "materials": [
+    {
+      "name": "White",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          0.5
+        ],
+        "metallicFactor": 0
+      }
+    },
+    {
+      "name": "Black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "Cylinder.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Cube.002",
+      "translation": [
+        0,
+        0,
+        0.8999999761581421
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Cylinder",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "base",
+      "nodes": [
+        1,
+        0
+      ]
+    }
+  ],
+  "scene": 0
+}
