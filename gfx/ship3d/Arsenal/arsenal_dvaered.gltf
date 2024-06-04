@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v3.10.0",
+    "generator": "glTF-Transform v4.0.1",
     "version": "2.0"
   },
   "accessors": [
@@ -28,7 +28,7 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 10076,
+      "count": 10086,
       "max": [
         3.783012866973877,
         2,
@@ -45,14 +45,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 10076,
+      "count": 10086,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 10076,
+      "count": 10086,
       "bufferView": 1,
       "byteOffset": 24
     },
@@ -122,20 +122,20 @@
     {
       "buffer": 0,
       "byteOffset": 64220,
-      "byteLength": 322432,
+      "byteLength": 322752,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 386652,
+      "byteOffset": 386972,
       "byteLength": 7744,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 394396,
+      "byteOffset": 394716,
       "byteLength": 1992,
       "byteStride": 24,
       "target": 34962
@@ -151,66 +151,90 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "dvaered_freighter_emit",
-      "mimeType": "image/png",
-      "uri": "dvaered_freighter_emit.png"
+      "mimeType": "image/webp",
+      "uri": "dvaered_freighter_emit.webp"
     },
     {
       "name": "dvaered_freighter_normal",
-      "mimeType": "image/png",
-      "uri": "dvaered_freighter_normal.png"
+      "mimeType": "image/webp",
+      "uri": "dvaered_freighter_normal.webp"
     },
     {
       "name": "AO_bake-dvaered_freighter_roughness-dvaered_freighter_metallic",
-      "mimeType": "image/png",
-      "uri": "AO_bake-dvaered_freighter_roughness-dvaered_freighter_metallic.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake-dvaered_freighter_roughness-dvaered_freighter_metallic.webp"
     },
     {
       "name": "dvaered_freighter_diffuse",
-      "mimeType": "image/png",
-      "uri": "dvaered_freighter_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "dvaered_freighter_diffuse.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient02_orange",
-      "mimeType": "image/png",
-      "uri": "gradient02_orange.png"
+      "mimeType": "image/webp",
+      "uri": "gradient02_orange.webp"
     }
   ],
   "buffers": [
     {
-      "uri": "arsenal.bin",
-      "byteLength": 396388
+      "uri": "arsenal_dvaered.bin",
+      "byteLength": 396708
     }
   ],
   "materials": [
@@ -268,7 +292,6 @@
       "name": "engine glow gradient.001",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.949999988079071,
         "metallicFactor": 0,
         "baseColorTexture": {
           "index": 5
@@ -442,5 +465,11 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }
