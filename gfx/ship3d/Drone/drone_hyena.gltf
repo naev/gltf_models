@@ -165,96 +165,136 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 6,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
     },
     {
-      "source": 7,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 7
+        }
+      }
     },
     {
-      "source": 8,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 8
+        }
+      }
     },
     {
-      "source": 9,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 9
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "seaxbaneGLO",
-      "mimeType": "image/png",
-      "uri": "seaxbaneGLO.png"
+      "mimeType": "image/webp",
+      "uri": "seaxbaneGLO.webp"
     },
     {
       "name": "AO_bake_drone",
-      "mimeType": "image/png",
-      "uri": "AO_bake_drone.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake_drone.webp"
     },
     {
       "name": "seaxbane",
-      "mimeType": "image/png",
-      "uri": "seaxbane.png"
+      "mimeType": "image/webp",
+      "uri": "seaxbane.webp"
     },
     {
       "name": "hyenaGLO",
-      "mimeType": "image/png",
-      "uri": "hyenaGLO.png"
+      "mimeType": "image/webp",
+      "uri": "hyenaGLO.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "hyena",
-      "mimeType": "image/png",
-      "uri": "hyena.png"
+      "mimeType": "image/webp",
+      "uri": "hyena.webp"
     },
     {
       "name": "GLO_bake_drone",
-      "mimeType": "image/png",
-      "uri": "GLO_bake_drone.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake_drone.webp"
     },
     {
       "name": "gradient_pale",
-      "mimeType": "image/png",
-      "uri": "gradient_pale.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_pale.webp"
     },
     {
       "name": "GLO_bake_hyena",
-      "mimeType": "image/png",
-      "uri": "GLO_bake_hyena.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake_hyena.webp"
     },
     {
       "name": "AO_bake_hyena",
-      "mimeType": "image/png",
-      "uri": "AO_bake_hyena.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake_hyena.webp"
     }
   ],
   "buffers": [
@@ -550,5 +590,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

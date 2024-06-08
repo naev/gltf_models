@@ -172,51 +172,71 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "muleGLO",
-      "mimeType": "image/png",
-      "uri": "muleGLO.png"
+      "mimeType": "image/webp",
+      "uri": "muleGLO.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "mule",
-      "mimeType": "image/png",
-      "uri": "mule.png"
+      "mimeType": "image/webp",
+      "uri": "mule.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient_blue_orange",
-      "mimeType": "image/png",
-      "uri": "gradient_blue_orange.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_blue_orange.webp"
     }
   ],
   "buffers": [
@@ -387,5 +407,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

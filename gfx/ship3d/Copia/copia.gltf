@@ -183,51 +183,71 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "copia_emission",
-      "mimeType": "image/png",
-      "uri": "copia_emission.png"
+      "mimeType": "image/webp",
+      "uri": "copia_emission.webp"
     },
     {
       "name": "copia_normal",
-      "mimeType": "image/png",
-      "uri": "copia_normal.png"
+      "mimeType": "image/webp",
+      "uri": "copia_normal.webp"
     },
     {
       "name": "copia_diffuse",
-      "mimeType": "image/png",
-      "uri": "copia_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "copia_diffuse.webp"
     },
     {
       "name": "copia_metallic-copia_roughness",
-      "mimeType": "image/png",
-      "uri": "copia_metallic-copia_roughness.png"
+      "mimeType": "image/webp",
+      "uri": "copia_metallic-copia_roughness.webp"
     },
     {
       "name": "gradient_soromid",
-      "mimeType": "image/png",
-      "uri": "gradient_soromid.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_soromid.webp"
     }
   ],
   "buffers": [
@@ -454,6 +474,10 @@
   ],
   "scene": 1,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

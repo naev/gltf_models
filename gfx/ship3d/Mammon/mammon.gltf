@@ -144,51 +144,71 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "mammon_emit",
-      "mimeType": "image/png",
-      "uri": "mammon_emit.png"
+      "mimeType": "image/webp",
+      "uri": "mammon_emit.webp"
     },
     {
       "name": "mammon_normal",
-      "mimeType": "image/png",
-      "uri": "mammon_normal.png"
+      "mimeType": "image/webp",
+      "uri": "mammon_normal.webp"
     },
     {
       "name": "AO_bake-mammon_roughness-mammon_metallic",
-      "mimeType": "image/png",
-      "uri": "AO_bake-mammon_roughness-mammon_metallic.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake-mammon_roughness-mammon_metallic.webp"
     },
     {
       "name": "mammon_diffuse",
-      "mimeType": "image/png",
-      "uri": "mammon_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "mammon_diffuse.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     }
   ],
   "buffers": [
@@ -388,5 +408,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

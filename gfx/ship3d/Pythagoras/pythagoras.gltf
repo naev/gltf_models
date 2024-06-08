@@ -113,69 +113,97 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     },
     {
-      "source": 6,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "proteron_cruiser_emission",
-      "mimeType": "image/png",
-      "uri": "proteron_cruiser_emission.png"
+      "mimeType": "image/webp",
+      "uri": "proteron_cruiser_emission.webp"
     },
     {
       "name": "proteron_cruiser_normal",
-      "mimeType": "image/png",
-      "uri": "proteron_cruiser_normal.png"
+      "mimeType": "image/webp",
+      "uri": "proteron_cruiser_normal.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "proteron_cruiser_diffuse",
-      "mimeType": "image/png",
-      "uri": "proteron_cruiser_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "proteron_cruiser_diffuse.webp"
     },
     {
       "name": "proteron_cruiser_metallic-proteron_cruiser_roughness",
-      "mimeType": "image/png",
-      "uri": "proteron_cruiser_metallic-proteron_cruiser_roughness.png"
+      "mimeType": "image/webp",
+      "uri": "proteron_cruiser_metallic-proteron_cruiser_roughness.webp"
     },
     {
       "name": "gradient_purple",
-      "mimeType": "image/png",
-      "uri": "gradient_purple.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_purple.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     }
   ],
   "buffers": [
@@ -356,5 +384,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

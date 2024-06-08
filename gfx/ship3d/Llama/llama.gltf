@@ -158,51 +158,71 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "llamaGLO",
-      "mimeType": "image/png",
-      "uri": "llamaGLO.png"
+      "mimeType": "image/webp",
+      "uri": "llamaGLO.webp"
     },
     {
       "name": "AO_bake_body",
-      "mimeType": "image/png",
-      "uri": "AO_bake_body.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake_body.webp"
     },
     {
       "name": "llama",
-      "mimeType": "image/png",
-      "uri": "llama.png"
+      "mimeType": "image/webp",
+      "uri": "llama.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient_blue_orange",
-      "mimeType": "image/png",
-      "uri": "gradient_blue_orange.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_blue_orange.webp"
     }
   ],
   "buffers": [
@@ -404,5 +424,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

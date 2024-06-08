@@ -413,60 +413,84 @@
   ],
   "textures": [
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 1
+      "sampler": 1,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "hexagonalLayerSteel_Red",
-      "mimeType": "image/png",
-      "uri": "hexagonalLayerSteel_Red.png"
+      "mimeType": "image/webp",
+      "uri": "hexagonalLayerSteel_Red.webp"
     },
     {
       "name": "hexagonalLayerSteel_Ash",
-      "mimeType": "image/png",
-      "uri": "hexagonalLayerSteel_Ash.png"
+      "mimeType": "image/webp",
+      "uri": "hexagonalLayerSteel_Ash.webp"
     },
     {
       "name": "hull_lightGray",
-      "mimeType": "image/png",
-      "uri": "hull_lightGray.png"
+      "mimeType": "image/webp",
+      "uri": "hull_lightGray.webp"
     },
     {
       "name": "hull_RED",
-      "mimeType": "image/png",
-      "uri": "hull_RED.png"
+      "mimeType": "image/webp",
+      "uri": "hull_RED.webp"
     },
     {
       "name": "hull_DarkGray",
-      "mimeType": "image/png",
-      "uri": "hull_DarkGray.png"
+      "mimeType": "image/webp",
+      "uri": "hull_DarkGray.webp"
     },
     {
       "name": "zalek_glow",
-      "mimeType": "image/png",
-      "uri": "zalek_glow.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_glow.webp"
     }
   ],
   "buffers": [
@@ -479,7 +503,7 @@
     {
       "name": "steel_hex_red",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.699999988079071,
         "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 0
@@ -489,7 +513,7 @@
     {
       "name": "steel_hex_grey",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
+        "roughnessFactor": 0.699999988079071,
         "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 1
@@ -505,15 +529,14 @@
           0.800000011920929,
           1
         ],
-        "roughnessFactor": 0.5,
         "metallicFactor": 0
       }
     },
     {
       "name": "hull_white",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 2
         }
@@ -522,8 +545,8 @@
     {
       "name": "hull_red",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 3
         }
@@ -532,8 +555,8 @@
     {
       "name": "hull_grey",
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.800000011920929,
-        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.30000001192092896,
         "baseColorTexture": {
           "index": 4
         }
@@ -703,21 +726,6 @@
       "mesh": 0
     },
     {
-      "name": "base_multi_glow",
-      "rotation": [
-        0.7070538401603699,
-        -0.008654111996293068,
-        -0.008654110133647919,
-        0.7070537805557251
-      ],
-      "scale": [
-        0.07873512804508209,
-        0.0919504165649414,
-        0.06238783150911331
-      ],
-      "mesh": 0
-    },
-    {
       "name": "glow_jet",
       "translation": [
         2.1057281494140625,
@@ -736,6 +744,21 @@
         0.02918943203985691
       ],
       "mesh": 1
+    },
+    {
+      "name": "base_multi",
+      "rotation": [
+        0.7070538401603699,
+        -0.008654111996293068,
+        -0.008654110133647919,
+        0.7070537805557251
+      ],
+      "scale": [
+        0.07873512804508209,
+        0.0919504165649414,
+        0.06238783150911331
+      ],
+      "mesh": 0
     }
   ],
   "scenes": [
@@ -753,8 +776,12 @@
       ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

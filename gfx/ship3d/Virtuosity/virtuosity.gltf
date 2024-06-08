@@ -113,60 +113,84 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "corvette05_emission",
-      "mimeType": "image/png",
-      "uri": "corvette05_emission.png"
+      "mimeType": "image/webp",
+      "uri": "corvette05_emission.webp"
     },
     {
       "name": "corvette05_normal",
-      "mimeType": "image/png",
-      "uri": "corvette05_normal.png"
+      "mimeType": "image/webp",
+      "uri": "corvette05_normal.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "corvette05_diffuse",
-      "mimeType": "image/png",
-      "uri": "corvette05_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "corvette05_diffuse.webp"
     },
     {
       "name": "gradient_pale",
-      "mimeType": "image/png",
-      "uri": "gradient_pale.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_pale.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     }
   ],
   "buffers": [
@@ -353,5 +377,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

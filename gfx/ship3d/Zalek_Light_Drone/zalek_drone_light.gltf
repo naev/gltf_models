@@ -119,42 +119,58 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 1
+      "sampler": 1,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "zalek_light_droneGLO",
-      "mimeType": "image/png",
-      "uri": "zalek_light_droneGLO.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_light_droneGLO.webp"
     },
     {
       "name": "AO_bake_light",
-      "mimeType": "image/png",
-      "uri": "AO_bake_light.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake_light.webp"
     },
     {
       "name": "zalek_light_drone",
-      "mimeType": "image/png",
-      "uri": "zalek_light_drone.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_light_drone.webp"
     },
     {
       "name": "zalek_glow",
-      "mimeType": "image/png",
-      "uri": "zalek_glow.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_glow.webp"
     }
   ],
   "buffers": [
@@ -305,6 +321,10 @@
   ],
   "scene": 1,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

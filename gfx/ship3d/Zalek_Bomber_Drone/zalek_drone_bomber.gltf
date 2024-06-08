@@ -119,51 +119,71 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 1
+      "sampler": 1,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "zalek_drone_bomberGLO",
-      "mimeType": "image/png",
-      "uri": "zalek_drone_bomberGLO.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_drone_bomberGLO.webp"
     },
     {
       "name": "AO_bake_bomber",
-      "mimeType": "image/png",
-      "uri": "AO_bake_bomber.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake_bomber.webp"
     },
     {
       "name": "zalek_drone_bomber",
-      "mimeType": "image/png",
-      "uri": "zalek_drone_bomber.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_drone_bomber.webp"
     },
     {
       "name": "GLO_bake_bomber",
-      "mimeType": "image/png",
-      "uri": "GLO_bake_bomber.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake_bomber.webp"
     },
     {
       "name": "zalek_glow",
-      "mimeType": "image/png",
-      "uri": "zalek_glow.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_glow.webp"
     }
   ],
   "buffers": [
@@ -355,6 +375,10 @@
   ],
   "scene": 0,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

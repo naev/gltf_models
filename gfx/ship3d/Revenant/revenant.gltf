@@ -356,69 +356,97 @@
   ],
   "textures": [
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     },
     {
-      "source": 6,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "Cracked_Flesh_DarkRed",
-      "mimeType": "image/png",
-      "uri": "Cracked_Flesh_DarkRed.png"
+      "mimeType": "image/webp",
+      "uri": "Cracked_Flesh_DarkRed.webp"
     },
     {
       "name": "wall06_red",
-      "mimeType": "image/png",
-      "uri": "wall06_red.png"
+      "mimeType": "image/webp",
+      "uri": "wall06_red.webp"
     },
     {
       "name": "hull_VDarkGray",
-      "mimeType": "image/png",
-      "uri": "hull_VDarkGray.png"
+      "mimeType": "image/webp",
+      "uri": "hull_VDarkGray.webp"
     },
     {
       "name": "RedBrownVeinedFlesh_glow",
-      "mimeType": "image/png",
-      "uri": "RedBrownVeinedFlesh_glow.png"
+      "mimeType": "image/webp",
+      "uri": "RedBrownVeinedFlesh_glow.webp"
     },
     {
       "name": "RedBrownVeinedFlesh",
-      "mimeType": "image/png",
-      "uri": "RedBrownVeinedFlesh.png"
+      "mimeType": "image/webp",
+      "uri": "RedBrownVeinedFlesh.webp"
     },
     {
       "name": "OrangeExaust",
-      "mimeType": "image/png",
-      "uri": "OrangeExaust.png"
+      "mimeType": "image/webp",
+      "uri": "OrangeExaust.webp"
     },
     {
       "name": "gradient_soromid",
-      "mimeType": "image/png",
-      "uri": "gradient_soromid.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_soromid.webp"
     }
   ],
   "buffers": [
@@ -1030,6 +1058,10 @@
   ],
   "scene": 1,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

@@ -113,51 +113,71 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "vendettaGLO",
-      "mimeType": "image/png",
-      "uri": "vendettaGLO.png"
+      "mimeType": "image/webp",
+      "uri": "vendettaGLO.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "vendetta_pirate",
-      "mimeType": "image/png",
-      "uri": "vendetta_pirate.png"
+      "mimeType": "image/webp",
+      "uri": "vendetta_pirate.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient_orange",
-      "mimeType": "image/png",
-      "uri": "gradient_orange.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_orange.webp"
     }
   ],
   "buffers": [
@@ -328,5 +348,11 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

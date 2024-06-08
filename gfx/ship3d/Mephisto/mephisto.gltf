@@ -413,60 +413,84 @@
   ],
   "textures": [
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 1
+      "sampler": 1,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "hexagonalLayerSteel_Ash",
-      "mimeType": "image/png",
-      "uri": "hexagonalLayerSteel_Ash.png"
+      "mimeType": "image/webp",
+      "uri": "hexagonalLayerSteel_Ash.webp"
     },
     {
       "name": "hull_lightGray",
-      "mimeType": "image/png",
-      "uri": "hull_lightGray.png"
+      "mimeType": "image/webp",
+      "uri": "hull_lightGray.webp"
     },
     {
       "name": "hull_DarkGray",
-      "mimeType": "image/png",
-      "uri": "hull_DarkGray.png"
+      "mimeType": "image/webp",
+      "uri": "hull_DarkGray.webp"
     },
     {
       "name": "hexagonalLayerSteel_Red",
-      "mimeType": "image/png",
-      "uri": "hexagonalLayerSteel_Red.png"
+      "mimeType": "image/webp",
+      "uri": "hexagonalLayerSteel_Red.webp"
     },
     {
       "name": "hull_RED",
-      "mimeType": "image/png",
-      "uri": "hull_RED.png"
+      "mimeType": "image/webp",
+      "uri": "hull_RED.webp"
     },
     {
       "name": "zalek_glow",
-      "mimeType": "image/png",
-      "uri": "zalek_glow.png"
+      "mimeType": "image/webp",
+      "uri": "zalek_glow.webp"
     }
   ],
   "buffers": [
@@ -825,6 +849,10 @@
   ],
   "scene": 0,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_emissive_strength"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

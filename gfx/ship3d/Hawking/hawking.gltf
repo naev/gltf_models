@@ -120,78 +120,110 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 7,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 7
+        }
+      }
     },
     {
-      "source": 6,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "hawkingGLO",
-      "mimeType": "image/jpeg",
-      "uri": "hawkingGLO.jpg"
+      "mimeType": "image/webp",
+      "uri": "hawkingGLO.webp"
     },
     {
       "name": "hawkingNORM",
-      "mimeType": "image/png",
-      "uri": "hawkingNORM.png"
+      "mimeType": "image/webp",
+      "uri": "hawkingNORM.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "hawking",
-      "mimeType": "image/png",
-      "uri": "hawking.png"
+      "mimeType": "image/webp",
+      "uri": "hawking.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "hawkingPPL",
-      "mimeType": "image/jpeg",
-      "uri": "hawkingPPL.jpg"
+      "mimeType": "image/webp",
+      "uri": "hawkingPPL.webp"
     },
     {
       "name": "gradient_cyan2",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan2.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan2.webp"
     },
     {
       "name": "gradient_cyan",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan.webp"
     }
   ],
   "buffers": [
@@ -394,6 +426,10 @@
   ],
   "scene": 0,
   "extensionsUsed": [
+    "EXT_texture_webp",
     "KHR_materials_specular"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
   ]
 }

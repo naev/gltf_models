@@ -158,60 +158,84 @@
   ],
   "textures": [
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "kestrel_n",
-      "mimeType": "image/png",
-      "uri": "kestrel_n.png"
+      "mimeType": "image/webp",
+      "uri": "kestrel_n.webp"
     },
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "kestrel_pirate",
-      "mimeType": "image/png",
-      "uri": "kestrel_pirate.png"
+      "mimeType": "image/webp",
+      "uri": "kestrel_pirate.webp"
     },
     {
       "name": "gradient_cyan2",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan2.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan2.webp"
     },
     {
       "name": "gradient_cyan",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     }
   ],
   "buffers": [
@@ -383,5 +407,11 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

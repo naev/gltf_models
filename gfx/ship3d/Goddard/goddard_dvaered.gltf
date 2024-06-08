@@ -158,51 +158,71 @@
   ],
   "textures": [
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "AO_bake",
-      "mimeType": "image/png",
-      "uri": "AO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake.webp"
     },
     {
       "name": "goddard_dvaered",
-      "mimeType": "image/png",
-      "uri": "goddard_dvaered.png"
+      "mimeType": "image/webp",
+      "uri": "goddard_dvaered.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient_cyan2",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan2.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan2.webp"
     },
     {
       "name": "gradient_cyan",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan.webp"
     }
   ],
   "buffers": [
@@ -386,5 +406,11 @@
       ]
     }
   ],
-  "scene": 1
+  "scene": 1,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

@@ -113,69 +113,97 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 6,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "starbridge_emit",
-      "mimeType": "image/png",
-      "uri": "starbridge_emit.png"
+      "mimeType": "image/webp",
+      "uri": "starbridge_emit.webp"
     },
     {
       "name": "starbridge_normal",
-      "mimeType": "image/png",
-      "uri": "starbridge_normal.png"
+      "mimeType": "image/webp",
+      "uri": "starbridge_normal.webp"
     },
     {
       "name": "AO_bake-starbridge_roughness-starbridge_metallic",
-      "mimeType": "image/png",
-      "uri": "AO_bake-starbridge_roughness-starbridge_metallic.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake-starbridge_roughness-starbridge_metallic.webp"
     },
     {
       "name": "starbridge_diffuse",
-      "mimeType": "image/png",
-      "uri": "starbridge_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "starbridge_diffuse.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     },
     {
       "name": "gradient_cyan2",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan2.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan2.webp"
     },
     {
       "name": "gradient_cyan",
-      "mimeType": "image/png",
-      "uri": "gradient_cyan.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan.webp"
     }
   ],
   "buffers": [
@@ -375,5 +403,11 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }

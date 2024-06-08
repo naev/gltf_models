@@ -113,60 +113,84 @@
   ],
   "textures": [
     {
-      "source": 3,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
     },
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
     },
     {
-      "source": 4,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
     },
     {
-      "source": 5,
-      "sampler": 0
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
     }
   ],
   "images": [
     {
       "name": "hippocrates_emission",
-      "mimeType": "image/png",
-      "uri": "hippocrates_emission.png"
+      "mimeType": "image/webp",
+      "uri": "hippocrates_emission.webp"
     },
     {
       "name": "hippocrates_normal",
-      "mimeType": "image/png",
-      "uri": "hippocrates_normal.png"
+      "mimeType": "image/webp",
+      "uri": "hippocrates_normal.webp"
     },
     {
       "name": "AO_bake-hippocrates_roughness-hippocrates_metallic",
-      "mimeType": "image/png",
-      "uri": "AO_bake-hippocrates_roughness-hippocrates_metallic.png"
+      "mimeType": "image/webp",
+      "uri": "AO_bake-hippocrates_roughness-hippocrates_metallic.webp"
     },
     {
       "name": "hippocrates_diffuse",
-      "mimeType": "image/png",
-      "uri": "hippocrates_diffuse.png"
+      "mimeType": "image/webp",
+      "uri": "hippocrates_diffuse.webp"
     },
     {
       "name": "gradient_purple",
-      "mimeType": "image/png",
-      "uri": "gradient_purple.png"
+      "mimeType": "image/webp",
+      "uri": "gradient_purple.webp"
     },
     {
       "name": "GLO_bake",
-      "mimeType": "image/png",
-      "uri": "GLO_bake.png"
+      "mimeType": "image/webp",
+      "uri": "GLO_bake.webp"
     }
   ],
   "buffers": [
@@ -332,5 +356,11 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp"
+  ]
 }
