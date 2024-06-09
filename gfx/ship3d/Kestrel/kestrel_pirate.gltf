@@ -19,16 +19,9 @@
       "byteOffset": 4284
     },
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 2142,
-      "bufferView": 0,
-      "byteOffset": 4524
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 636,
+      "count": 1185,
       "max": [
         2.4899818897247314,
         1.4582432508468628,
@@ -45,16 +38,23 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 636,
+      "count": 1185,
       "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 636,
+      "count": 1185,
       "bufferView": 1,
       "byteOffset": 24
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1185,
+      "bufferView": 1,
+      "byteOffset": 32
     },
     {
       "type": "VEC3",
@@ -86,64 +86,26 @@
       "count": 45,
       "bufferView": 2,
       "byteOffset": 24
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 1185,
-      "max": [
-        2.4899818897247314,
-        1.4582432508468628,
-        5.117948532104492
-      ],
-      "min": [
-        -2.4899818897247314,
-        -1.1829549074172974,
-        -2.4403934478759766
-      ],
-      "bufferView": 3,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 1185,
-      "bufferView": 3,
-      "byteOffset": 12
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 1185,
-      "bufferView": 3,
-      "byteOffset": 24
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 8808,
+      "byteLength": 4524,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 8808,
-      "byteLength": 20352,
-      "byteStride": 32,
+      "byteOffset": 4524,
+      "byteLength": 47400,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 29160,
+      "byteOffset": 51924,
       "byteLength": 1440,
-      "byteStride": 32,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 30600,
-      "byteLength": 37920,
       "byteStride": 32,
       "target": 34962
     }
@@ -161,7 +123,7 @@
       "sampler": 0,
       "extensions": {
         "EXT_texture_webp": {
-          "source": 2
+          "source": 1
         }
       }
     },
@@ -177,7 +139,15 @@
       "sampler": 0,
       "extensions": {
         "EXT_texture_webp": {
-          "source": 1
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
         }
       }
     },
@@ -188,30 +158,9 @@
           "source": 4
         }
       }
-    },
-    {
-      "sampler": 0,
-      "extensions": {
-        "EXT_texture_webp": {
-          "source": 3
-        }
-      }
-    },
-    {
-      "sampler": 0,
-      "extensions": {
-        "EXT_texture_webp": {
-          "source": 5
-        }
-      }
     }
   ],
   "images": [
-    {
-      "name": "kestrel_n",
-      "mimeType": "image/webp",
-      "uri": "kestrel_n.webp"
-    },
     {
       "name": "AO_bake",
       "mimeType": "image/webp",
@@ -241,7 +190,7 @@
   "buffers": [
     {
       "uri": "kestrel.bin",
-      "byteLength": 68520
+      "byteLength": 53364
     }
   ],
   "materials": [
@@ -254,11 +203,9 @@
           "index": 0
         }
       },
-      "normalTexture": {
-        "index": 1
-      },
       "occlusionTexture": {
-        "index": 2
+        "index": 1,
+        "texCoord": 1
       }
     },
     {
@@ -274,7 +221,7 @@
         "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
-          "index": 3
+          "index": 2
         }
       },
       "emissiveFactor": [
@@ -283,7 +230,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 4
+        "index": 3
       }
     },
     {
@@ -301,13 +248,12 @@
         1
       ],
       "emissiveTexture": {
-        "index": 5
-      },
-      "normalTexture": {
-        "index": 1
+        "index": 4,
+        "texCoord": 1
       },
       "occlusionTexture": {
-        "index": 2
+        "index": 1,
+        "texCoord": 1
       }
     }
   ],
@@ -317,9 +263,10 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 3,
-            "NORMAL": 4,
-            "TEXCOORD_0": 5
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
           },
           "mode": 4,
           "material": 0,
@@ -347,13 +294,14 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
           },
           "mode": 4,
           "material": 2,
-          "indices": 2
+          "indices": 0
         }
       ]
     }
@@ -407,7 +355,7 @@
       ]
     }
   ],
-  "scene": 0,
+  "scene": 1,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],
