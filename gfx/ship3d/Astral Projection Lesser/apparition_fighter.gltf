@@ -7,47 +7,16 @@
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 84,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
       "count": 2160,
       "bufferView": 0,
-      "byteOffset": 168
+      "byteOffset": 0
     },
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 90,
+      "count": 174,
       "bufferView": 0,
-      "byteOffset": 4488
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 68,
-      "max": [
-        0.8660253882408142,
-        1,
-        1.0606601238250732
-      ],
-      "min": [
-        -1.0606602430343628,
-        -0.75,
-        -1.4488887786865234
-      ],
-      "bufferView": 1,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 68,
-      "bufferView": 1,
-      "byteOffset": 12
+      "byteOffset": 4320
     },
     {
       "type": "VEC3",
@@ -56,66 +25,46 @@
       "max": [
         1.4952852725982666,
         1.5499999523162842,
-        1.0474517345428467
+        1.0474516153335571
       ],
       "min": [
         -1.4952852725982666,
         -2.0384297370910645,
         -1.2319867610931396
       ],
-      "bufferView": 2,
+      "bufferView": 1,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 1099,
-      "bufferView": 2,
+      "bufferView": 1,
       "byteOffset": 12
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 60,
+      "count": 128,
       "max": [
-        1.039230465888977,
+        1.4488887786865234,
         2.25,
-        0.6000000238418579
+        0.9999998807907104
       ],
       "min": [
-        -1.0392305850982666,
+        -1.4488887786865234,
         -1.25,
         -1.1999999284744263
       ],
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 60,
-      "bufferView": 3,
+      "count": 128,
+      "bufferView": 2,
       "byteOffset": 12
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5126,
-      "count": 5,
-      "max": [
-        2.7083332538604736
-      ],
-      "min": [
-        0.0416666679084301
-      ],
-      "bufferView": 4,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC4",
-      "componentType": 5126,
-      "count": 5,
-      "bufferView": 4,
-      "byteOffset": 20
     }
   ],
   "bufferViews": [
@@ -128,34 +77,22 @@
     {
       "buffer": 0,
       "byteOffset": 4668,
-      "byteLength": 1632,
-      "byteStride": 24,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 6300,
       "byteLength": 26376,
       "byteStride": 24,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 32676,
-      "byteLength": 1440,
+      "byteOffset": 31044,
+      "byteLength": 3072,
       "byteStride": 24,
       "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 34116,
-      "byteLength": 100
     }
   ],
   "buffers": [
     {
       "uri": "apparition_fighter.bin",
-      "byteLength": 34216
+      "byteLength": 34116
     }
   ],
   "materials": [
@@ -187,30 +124,16 @@
   ],
   "meshes": [
     {
-      "name": "Cone.001",
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 3,
-            "NORMAL": 4
-          },
-          "mode": 4,
-          "material": 0,
-          "indices": 0
-        }
-      ]
-    },
-    {
       "name": "Cone.002",
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 2,
+            "NORMAL": 3
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 0
         }
       ]
     },
@@ -219,40 +142,31 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8
+            "POSITION": 4,
+            "NORMAL": 5
           },
           "mode": 4,
           "material": 0,
-          "indices": 2
+          "indices": 1
         }
       ]
     }
   ],
   "nodes": [
     {
-      "name": "Cone.001",
-      "translation": [
-        0,
-        -0.25,
-        0
-      ],
-      "rotation": [
-        0,
-        -0.5,
-        0,
-        0.8660253882408142
-      ],
-      "mesh": 0
-    },
-    {
       "name": "Cone.002",
       "translation": [
         0,
-        0.75,
-        0
+        -1.0076914236378798e-7,
+        0.7500001007691424
       ],
-      "mesh": 1
+      "rotation": [
+        0.7071068286895689,
+        0,
+        0,
+        0.7071067336835231
+      ],
+      "mesh": 0
     },
     {
       "name": "Cone",
@@ -262,39 +176,15 @@
         0,
         0.7071068286895752
       ],
-      "mesh": 2,
-      "children": [
-        0,
-        1
-      ]
-    }
-  ],
-  "animations": [
-    {
-      "name": "rotate",
-      "samplers": [
-        {
-          "input": 9,
-          "output": 10,
-          "interpolation": "LINEAR"
-        }
-      ],
-      "channels": [
-        {
-          "sampler": 0,
-          "target": {
-            "node": 2,
-            "path": "rotation"
-          }
-        }
-      ]
+      "mesh": 1
     }
   ],
   "scenes": [
     {
       "name": "base",
       "nodes": [
-        2
+        1,
+        0
       ]
     }
   ],
