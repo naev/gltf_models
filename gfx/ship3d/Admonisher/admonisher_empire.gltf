@@ -287,14 +287,6 @@
           "source": 4
         }
       }
-    },
-    {
-      "sampler": 0,
-      "extensions": {
-        "EXT_texture_webp": {
-          "source": 6
-        }
-      }
     }
   ],
   "images": [
@@ -327,11 +319,6 @@
       "name": "gradient_cyan",
       "mimeType": "image/webp",
       "uri": "gradient_cyan.webp"
-    },
-    {
-      "name": "admonisher",
-      "mimeType": "image/webp",
-      "uri": "admonisher.webp"
     }
   ],
   "buffers": [
@@ -435,28 +422,6 @@
       "emissiveTexture": {
         "index": 5
       }
-    },
-    {
-      "name": "base",
-      "pbrMetallicRoughness": {
-        "roughnessFactor": 0.20000000298023224,
-        "metallicFactor": 0.699999988079071,
-        "baseColorTexture": {
-          "index": 6
-        }
-      },
-      "emissiveFactor": [
-        1,
-        1,
-        1
-      ],
-      "emissiveTexture": {
-        "index": 1
-      },
-      "occlusionTexture": {
-        "index": 2,
-        "texCoord": 1
-      }
     }
   ],
   "meshes": [
@@ -551,22 +516,6 @@
           "indices": 8
         }
       ]
-    },
-    {
-      "name": "base",
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2,
-            "TEXCOORD_1": 3
-          },
-          "mode": 4,
-          "material": 4,
-          "indices": 4
-        }
-      ]
     }
   ],
   "nodes": [
@@ -644,16 +593,6 @@
         0.7071068286895752
       ],
       "mesh": 5
-    },
-    {
-      "name": "body",
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
-      ],
-      "mesh": 6
     },
     {
       "name": "trail_bottom_left",
@@ -813,12 +752,11 @@
         13,
         14,
         15,
-        16,
-        17
+        16
       ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],

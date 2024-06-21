@@ -595,16 +595,6 @@
       "mesh": 5
     },
     {
-      "name": "body",
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
-      ],
-      "mesh": 0
-    },
-    {
       "name": "trail_bottom_left",
       "extras": {
         "NAEV_trail_generator": "thin"
@@ -762,12 +752,11 @@
         13,
         14,
         15,
-        16,
-        17
+        16
       ]
     }
   ],
-  "scene": 2,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],
