@@ -362,21 +362,6 @@
       "mesh": 2
     },
     {
-      "name": "Mesh",
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
-      ],
-      "scale": [
-        0.33000001311302185,
-        0.33000001311302185,
-        0.33000001311302185
-      ],
-      "mesh": 0
-    },
-    {
       "name": "mount_medium_bottom",
       "extras": {
         "NAEV_weapon_mount": "2"
@@ -535,12 +520,11 @@
         7,
         8,
         9,
-        10,
-        11
+        10
       ]
     }
   ],
-  "scene": 2,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],
