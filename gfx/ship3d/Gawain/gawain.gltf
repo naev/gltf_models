@@ -5,27 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 3996,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 144,
-      "bufferView": 0,
-      "byteOffset": 7992
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 3996,
-      "bufferView": 0,
-      "byteOffset": 8280
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 1399,
@@ -39,29 +18,50 @@
         -10.320661544799805,
         -3.2520499229431152
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 1399,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 1399,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 1399,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 32
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3996,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 144,
+      "bufferView": 1,
+      "byteOffset": 7992
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3996,
+      "bufferView": 1,
+      "byteOffset": 8280
     },
     {
       "type": "VEC3",
@@ -137,15 +137,15 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 16272,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 16272,
       "byteLength": 55960,
       "byteStride": 40,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55960,
+      "byteLength": 16272,
+      "target": 34963
     },
     {
       "buffer": 0,
@@ -336,14 +336,14 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 3,
-            "NORMAL": 4,
-            "TEXCOORD_0": 5,
-            "TEXCOORD_1": 6
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 4
         }
       ]
     },
@@ -358,7 +358,7 @@
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 5
         }
       ]
     },
@@ -374,7 +374,7 @@
           },
           "mode": 4,
           "material": 2,
-          "indices": 2
+          "indices": 6
         }
       ]
     }
@@ -414,6 +414,76 @@
         0.7071068286895752
       ],
       "mesh": 2
+    },
+    {
+      "name": "mount_small_left",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        3.8204305171966553,
+        -0.8341444730758667,
+        0.8992167711257935
+      ]
+    },
+    {
+      "name": "trail_center",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        0,
+        -0.28902822732925415,
+        -9.358925819396973
+      ],
+      "scale": [
+        1.5653316974639893,
+        1.5653316974639893,
+        1.5653316974639893
+      ]
+    },
+    {
+      "name": "mount_small_right",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        -3.820430040359497,
+        -0.8341444730758667,
+        0.8992167711257935
+      ]
+    },
+    {
+      "name": "trail_nebula_left",
+      "extras": {
+        "NAEV_trail_generator": "nebulaS"
+      },
+      "translation": [
+        8.174897193908691,
+        -1.6973087787628174,
+        -1.0466352701187134
+      ],
+      "scale": [
+        1.5653316974639893,
+        1.5653316974639893,
+        1.5653316974639893
+      ]
+    },
+    {
+      "name": "trail_nebula_right",
+      "extras": {
+        "NAEV_trail_generator": "nebulaS"
+      },
+      "translation": [
+        -8.17490005493164,
+        -1.6973087787628174,
+        -1.0466352701187134
+      ],
+      "scale": [
+        1.5653316974639893,
+        1.5653316974639893,
+        1.5653316974639893
+      ]
     }
   ],
   "scenes": [
@@ -429,9 +499,19 @@
         1,
         2
       ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],

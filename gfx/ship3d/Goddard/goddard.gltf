@@ -5,27 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 7686,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 7686,
-      "bufferView": 0,
-      "byteOffset": 15372
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 480,
-      "bufferView": 0,
-      "byteOffset": 30744
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 2598,
@@ -39,22 +18,43 @@
         -8.829437255859375,
         -3.4720332622528076
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 2598,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 2598,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7686,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7686,
+      "bufferView": 1,
+      "byteOffset": 15372
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 480,
+      "bufferView": 1,
+      "byteOffset": 30744
     },
     {
       "type": "VEC3",
@@ -123,15 +123,15 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 31704,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 31704,
       "byteLength": 83136,
       "byteStride": 32,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 83136,
+      "byteLength": 31704,
+      "target": 34963
     },
     {
       "buffer": 0,
@@ -185,14 +185,6 @@
       "sampler": 0,
       "extensions": {
         "EXT_texture_webp": {
-          "source": 4
-        }
-      }
-    },
-    {
-      "sampler": 0,
-      "extensions": {
-        "EXT_texture_webp": {
           "source": 3
         }
       }
@@ -215,14 +207,9 @@
       "uri": "GLO_bake.webp"
     },
     {
-      "name": "gradient_cyan2",
+      "name": "gradient_blue_orange",
       "mimeType": "image/webp",
-      "uri": "gradient_cyan2.webp"
-    },
-    {
-      "name": "gradient_cyan",
-      "mimeType": "image/webp",
-      "uri": "gradient_cyan.webp"
+      "uri": "gradient_blue_orange.webp"
     }
   ],
   "buffers": [
@@ -267,15 +254,9 @@
       }
     },
     {
-      "name": "engine_glow_nexus",
+      "name": "engine_glow_melendez",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0.3277781903743744,
-          1,
-          1
-        ],
         "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
@@ -288,7 +269,7 @@
         1
       ],
       "emissiveTexture": {
-        "index": 4
+        "index": 3
       }
     }
   ],
@@ -298,13 +279,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 3,
-            "NORMAL": 4,
-            "TEXCOORD_0": 5
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         }
       ]
     },
@@ -319,7 +300,7 @@
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
         }
       ]
     },
@@ -334,7 +315,7 @@
           },
           "mode": 4,
           "material": 2,
-          "indices": 2
+          "indices": 5
         }
       ]
     }
@@ -389,6 +370,193 @@
         0.9996785521507263
       ],
       "mesh": 2
+    },
+    {
+      "name": "trail_farleft",
+      "extras": {
+        "NAEV_trail_generator": "melendez"
+      },
+      "translation": [
+        9.5,
+        0.4000000059604645,
+        -5
+      ]
+    },
+    {
+      "name": "trail_farright",
+      "extras": {
+        "NAEV_trail_generator": "melendez"
+      },
+      "translation": [
+        -9.5,
+        0.4000000059604645,
+        -5
+      ]
+    },
+    {
+      "name": "trail_left",
+      "extras": {
+        "NAEV_trail_generator": "melendez"
+      },
+      "translation": [
+        4.5,
+        0.4000000059604645,
+        -4.5
+      ]
+    },
+    {
+      "name": "trail_right",
+      "extras": {
+        "NAEV_trail_generator": "melendez"
+      },
+      "translation": [
+        -4.5,
+        0.4000000059604645,
+        -4.5
+      ]
+    },
+    {
+      "name": "trail_nebula_center",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        0,
+        3,
+        -8
+      ]
+    },
+    {
+      "name": "trail_nebula_left",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        14.199999809265137,
+        0,
+        -4.199999809265137
+      ]
+    },
+    {
+      "name": "trail_nebula_right",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -14.199999809265137,
+        0,
+        -4.199999809265137
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_farleft",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        9.28382396697998,
+        -4.727662086486816,
+        -2.6090307235717773
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_farright",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -9.283820152282715,
+        -4.727662086486816,
+        -2.6090307235717773
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_left",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        4.673029899597168,
+        -4.621054172515869,
+        -1.9765405654907227
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_right",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -4.673029899597168,
+        -4.621054172515869,
+        -1.976539969444275
+      ]
+    },
+    {
+      "name": "mount_large_farleft",
+      "extras": {
+        "NAEV_weapon_mount": "2"
+      },
+      "translation": [
+        9.252540588378906,
+        0.8362842798233032,
+        -0.26258984208106995
+      ]
+    },
+    {
+      "name": "mount_large_farright",
+      "extras": {
+        "NAEV_weapon_mount": "3"
+      },
+      "translation": [
+        -9.25253963470459,
+        0.8362842798233032,
+        -0.26258984208106995
+      ]
+    },
+    {
+      "name": "mount_large_left",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        4.504678726196289,
+        0.8362842798233032,
+        0.40211084485054016
+      ]
+    },
+    {
+      "name": "mount_large_right",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        -4.504680156707764,
+        0.8362842798233032,
+        0.40211084485054016
+      ]
+    },
+    {
+      "name": "mount_fb_left",
+      "extras": {
+        "NAEV_weapon_mount": "4"
+      },
+      "translation": [
+        1.9757790565490723,
+        0.09375756978988647,
+        7.113175392150879
+      ]
+    },
+    {
+      "name": "mount_fb_right",
+      "extras": {
+        "NAEV_weapon_mount": "5"
+      },
+      "translation": [
+        -1.9757800102233887,
+        0.09375756978988647,
+        7.113175392150879
+      ]
     }
   ],
   "scenes": [
@@ -403,6 +571,28 @@
       "nodes": [
         1,
         2
+      ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
       ]
     }
   ],
