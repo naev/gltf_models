@@ -5,41 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 21036,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 6192,
-      "bufferView": 0,
-      "byteOffset": 42072
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 9204,
-      "bufferView": 0,
-      "byteOffset": 54456
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 6900,
-      "bufferView": 0,
-      "byteOffset": 72864
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 1728,
-      "bufferView": 0,
-      "byteOffset": 86664
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 14784,
@@ -53,22 +18,57 @@
         -100.48988342285156,
         -8.294827461242676
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 14784,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 14784,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 21036,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6192,
+      "bufferView": 1,
+      "byteOffset": 42072
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 9204,
+      "bufferView": 1,
+      "byteOffset": 54456
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6900,
+      "bufferView": 1,
+      "byteOffset": 72864
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1728,
+      "bufferView": 1,
+      "byteOffset": 86664
     },
     {
       "type": "VEC3",
@@ -199,15 +199,15 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 90120,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 90120,
       "byteLength": 473088,
       "byteStride": 32,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 473088,
+      "byteLength": 90120,
+      "target": 34963
     },
     {
       "buffer": 0,
@@ -434,13 +434,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         },
         {
           "attributes": {
@@ -450,7 +450,7 @@
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
         },
         {
           "attributes": {
@@ -460,7 +460,7 @@
           },
           "mode": 4,
           "material": 2,
-          "indices": 2
+          "indices": 5
         },
         {
           "attributes": {
@@ -470,7 +470,7 @@
           },
           "mode": 4,
           "material": 3,
-          "indices": 3
+          "indices": 6
         }
       ]
     },
@@ -485,7 +485,7 @@
           },
           "mode": 4,
           "material": 4,
-          "indices": 4
+          "indices": 7
         }
       ]
     }
@@ -535,6 +535,230 @@
         0.5939655303955078
       ],
       "mesh": 0
+    },
+    {
+      "name": "mount_large_left",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        1.4329578876495361,
+        -0.619983434677124,
+        0.6796338558197021
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_left",
+      "extras": {
+        "NAEV_trail_generator": "soromid"
+      },
+      "translation": [
+        1.0535411834716797,
+        0.5237951874732971,
+        -3.467237949371338
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_right",
+      "extras": {
+        "NAEV_trail_generator": "soromid"
+      },
+      "translation": [
+        -1.0535399913787842,
+        0.5237951874732971,
+        -3.467237949371338
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_top_left",
+      "extras": {
+        "NAEV_trail_generator": "soromidS"
+      },
+      "translation": [
+        0.6518775820732117,
+        0.9141443967819214,
+        -3.7825539112091064
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_top_right",
+      "extras": {
+        "NAEV_trail_generator": "soromidS"
+      },
+      "translation": [
+        -0.6518779993057251,
+        0.9141443967819214,
+        -3.7825539112091064
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_bottom_left",
+      "extras": {
+        "NAEV_trail_generator": "soromidS"
+      },
+      "translation": [
+        0.6349058747291565,
+        0.07121646404266357,
+        -3.7825539112091064
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_bottom_right",
+      "extras": {
+        "NAEV_trail_generator": "soromidS"
+      },
+      "translation": [
+        -0.634905993938446,
+        0.07121646404266357,
+        -3.7825539112091064
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_left",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        1.473951816558838,
+        -1.1340503692626953,
+        -2.5084986686706543
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "trail_nebula_bottom_right",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -1.4739500284194946,
+        -1.1340503692626953,
+        -2.5084986686706543
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "mount_large_right",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        -1.432960033416748,
+        -0.619983434677124,
+        0.6796338558197021
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "mount_large_bottom_left",
+      "extras": {
+        "NAEV_weapon_mount": "2"
+      },
+      "translation": [
+        0.9252921342849731,
+        -1.2149040699005127,
+        0.7421807646751404
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "mount_large_bottom_right",
+      "extras": {
+        "NAEV_weapon_mount": "3"
+      },
+      "translation": [
+        -0.9252920150756836,
+        -1.2149040699005127,
+        0.7421807646751404
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "mount_medium1",
+      "extras": {
+        "NAEV_weapon_mount": "4"
+      },
+      "translation": [
+        -1.1608967781066895,
+        0.7602325677871704,
+        -1.2161803245544434
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
+    },
+    {
+      "name": "mount_medium2",
+      "extras": {
+        "NAEV_weapon_mount": "5"
+      },
+      "translation": [
+        -1.3036777973175049,
+        0.8712844252586365,
+        -1.2161803245544434
+      ],
+      "scale": [
+        0.35298776626586914,
+        0.35298776626586914,
+        0.35298776626586914
+      ]
     }
   ],
   "scenes": [
@@ -550,9 +774,28 @@
         1,
         2
       ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp",
     "KHR_materials_emissive_strength"

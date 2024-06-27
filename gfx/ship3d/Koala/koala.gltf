@@ -5,20 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 4026,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 264,
-      "bufferView": 0,
-      "byteOffset": 8052
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 1917,
@@ -32,29 +18,43 @@
         -7.453800201416016,
         -5.563035011291504
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 1917,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 1917,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 1917,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 32
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4026,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 264,
+      "bufferView": 1,
+      "byteOffset": 8052
     },
     {
       "type": "VEC3",
@@ -92,15 +92,15 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 8580,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 8580,
       "byteLength": 76680,
       "byteStride": 40,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 76680,
+      "byteLength": 8580,
+      "target": 34963
     },
     {
       "buffer": 0,
@@ -265,14 +265,14 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4,
-            "TEXCOORD_1": 5
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 4
         }
       ]
     },
@@ -281,14 +281,14 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4,
-            "TEXCOORD_1": 5
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
           "mode": 4,
           "material": 1,
-          "indices": 0
+          "indices": 4
         }
       ]
     },
@@ -303,7 +303,7 @@
           },
           "mode": 4,
           "material": 2,
-          "indices": 1
+          "indices": 5
         }
       ]
     }
@@ -338,6 +338,61 @@
         0.7071068286895752
       ],
       "mesh": 2
+    },
+    {
+      "name": "mount_small_left",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        5.221029281616211,
+        -1.3552477359771729,
+        0.24770452082157135
+      ]
+    },
+    {
+      "name": "trail_center",
+      "extras": {
+        "NAEV_trail_generator": "melendez"
+      },
+      "translation": [
+        -0.08524894714355469,
+        -3.5843398571014404,
+        -1.3574180603027344
+      ]
+    },
+    {
+      "name": "trail_nebula_left",
+      "extras": {
+        "NAEV_trail_generator": "nebulaS"
+      },
+      "translation": [
+        9.008831024169922,
+        -0.7243639230728149,
+        -1.357418417930603
+      ]
+    },
+    {
+      "name": "trail_nebula_right",
+      "extras": {
+        "NAEV_trail_generator": "nebulaS"
+      },
+      "translation": [
+        -9.008830070495605,
+        -0.7243639230728149,
+        -1.357418417930603
+      ]
+    },
+    {
+      "name": "mount_small_right",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        -5.221030235290527,
+        -1.3552477359771729,
+        0.24770452082157135
+      ]
     }
   ],
   "scenes": [
@@ -353,9 +408,19 @@
         1,
         2
       ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],

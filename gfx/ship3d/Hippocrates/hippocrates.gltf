@@ -5,20 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 18906,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 2400,
-      "bufferView": 0,
-      "byteOffset": 37812
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 6491,
@@ -32,31 +18,52 @@
         -1.8255304098129272,
         -5.75
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 6491,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 6491,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 18906,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1200,
+      "bufferView": 1,
+      "byteOffset": 37812
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1200,
+      "bufferView": 1,
+      "byteOffset": 40212
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 484,
+      "count": 242,
       "max": [
         3.6363000869750977,
         0.7435359954833984,
-        -14.22181224822998
+        -14.423099517822266
       ],
       "min": [
         -3.6363000869750977,
@@ -69,15 +76,46 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 484,
+      "count": 242,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 484,
+      "count": 242,
       "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 242,
+      "max": [
+        4.100580215454102,
+        0.7435362339019775,
+        -17.777265548706055
+      ],
+      "min": [
+        -4.100580215454102,
+        -0.725844144821167,
+        -21.669178009033203
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 242,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 242,
+      "bufferView": 3,
       "byteOffset": 24
     }
   ],
@@ -85,20 +123,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 42612,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 42612,
       "byteLength": 207712,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
+      "byteOffset": 207712,
+      "byteLength": 42612,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
       "byteOffset": 250324,
-      "byteLength": 15488,
+      "byteLength": 7744,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 258068,
+      "byteLength": 7744,
       "byteStride": 32,
       "target": 34962
     }
@@ -276,13 +321,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         }
       ]
     },
@@ -291,13 +336,28 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 5
         }
       ]
     },
@@ -306,13 +366,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 2,
-          "indices": 0
+          "indices": 3
         }
       ]
     }
@@ -337,8 +397,146 @@
       "mesh": 1
     },
     {
-      "name": "base_glow",
+      "name": "Sphere.003",
+      "translation": [
+        0,
+        0,
+        8.5
+      ],
+      "scale": [
+        0.5400000214576721,
+        0.5400000214576721,
+        0.7200000286102295
+      ],
       "mesh": 2
+    },
+    {
+      "name": "base_glow",
+      "mesh": 3
+    },
+    {
+      "name": "mount_large_fb",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        0,
+        0.81791090965271,
+        1.1555663347244263
+      ],
+      "scale": [
+        0.6658322215080261,
+        0.6658322215080261,
+        0.6658322215080261
+      ]
+    },
+    {
+      "name": "trail_left",
+      "extras": {
+        "NAEV_trail_generator": "proteron"
+      },
+      "translation": [
+        1.7984333038330078,
+        0,
+        -5.266575336456299
+      ]
+    },
+    {
+      "name": "trail_right",
+      "extras": {
+        "NAEV_trail_generator": "proteron"
+      },
+      "translation": [
+        -1.7984299659729004,
+        0,
+        -5.266575336456299
+      ]
+    },
+    {
+      "name": "trail_nebula_left",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        7.127527236938477,
+        0,
+        0.680384635925293
+      ]
+    },
+    {
+      "name": "trail_nebula_right",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -7.127530097961426,
+        0,
+        0.680384635925293
+      ]
+    },
+    {
+      "name": "mount_medium_fb_r",
+      "extras": {
+        "NAEV_weapon_mount": "2"
+      },
+      "translation": [
+        -0.5760180354118347,
+        -0.8364652395248413,
+        1.1555663347244263
+      ],
+      "scale": [
+        0.6658322215080261,
+        0.6658322215080261,
+        0.6658322215080261
+      ]
+    },
+    {
+      "name": "mount_medium_fb_l",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        0.5760179758071899,
+        -0.8364652395248413,
+        1.1555663347244263
+      ],
+      "scale": [
+        0.6658322215080261,
+        0.6658322215080261,
+        0.6658322215080261
+      ]
+    },
+    {
+      "name": "mount_small_left",
+      "extras": {
+        "NAEV_weapon_mount": "3"
+      },
+      "translation": [
+        3.7511253356933594,
+        -0.31808048486709595,
+        1.1555664539337158
+      ],
+      "scale": [
+        0.6658322215080261,
+        0.6658322215080261,
+        0.6658322215080261
+      ]
+    },
+    {
+      "name": "mount_small_right",
+      "extras": {
+        "NAEV_weapon_mount": "4"
+      },
+      "translation": [
+        -3.7511301040649414,
+        -0.31808048486709595,
+        1.1555664539337158
+      ],
+      "scale": [
+        0.6658322215080261,
+        0.6658322215080261,
+        0.6658322215080261
+      ]
     }
   ],
   "scenes": [
@@ -352,7 +550,22 @@
       "name": "engine",
       "nodes": [
         1,
-        2
+        2,
+        3
+      ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
       ]
     }
   ],
