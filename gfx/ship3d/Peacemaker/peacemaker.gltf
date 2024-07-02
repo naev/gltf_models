@@ -5,23 +5,9 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 15756,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 864,
-      "bufferView": 0,
-      "byteOffset": 31512
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 7407,
+      "count": 7435,
       "max": [
         3.6766622066497803,
         2.967916488647461,
@@ -32,22 +18,36 @@
         -6.683332920074463,
         -8.199999809265137
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 7407,
-      "bufferView": 1,
+      "count": 7435,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 7407,
-      "bufferView": 1,
+      "count": 7435,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15756,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 864,
+      "bufferView": 1,
+      "byteOffset": 31512
     },
     {
       "type": "VEC3",
@@ -85,19 +85,19 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 33240,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 33240,
-      "byteLength": 237024,
+      "byteLength": 237920,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 270264,
+      "byteOffset": 237920,
+      "byteLength": 33240,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 271160,
       "byteLength": 21504,
       "byteStride": 32,
       "target": 34962
@@ -183,7 +183,7 @@
   "buffers": [
     {
       "uri": "peacemaker.bin",
-      "byteLength": 291768
+      "byteLength": 292664
     }
   ],
   "materials": [
@@ -253,13 +253,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         }
       ]
     },
@@ -274,7 +274,7 @@
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
         }
       ]
     },
@@ -283,13 +283,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 2,
-          "indices": 0
+          "indices": 3
         }
       ]
     }
@@ -327,6 +327,271 @@
         0.6000000238418579
       ],
       "mesh": 2
+    },
+    {
+      "name": "base",
+      "scale": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "mount_fb0",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        0.8490973114967346,
+        -0.04957881569862366,
+        2.514535903930664
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        0.30987119674682617,
+        -1.3763060569763184,
+        0.680417537689209
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.002",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        0.30987119674682617,
+        -1.943556547164917,
+        0.680417537689209
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.003",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        -0.30987098813056946,
+        -1.943556547164917,
+        0.680417537689209
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.001",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        -0.30987098813056946,
+        -1.3763060569763184,
+        0.680417537689209
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.004",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        -0.30987098813056946,
+        -3.384272575378418,
+        0.8542971014976501
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.005",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        0.30987119674682617,
+        -3.384272575378418,
+        0.8542971014976501
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.006",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        -0.30987098813056946,
+        -2.8170223236083984,
+        0.8542971014976501
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail0.007",
+      "extras": {
+        "NAEV_trail_generator": "default"
+      },
+      "translation": [
+        0.30987119674682617,
+        -2.8170223236083984,
+        0.8542971014976501
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail_nebula_left",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        2.1762702465057373,
+        0.2073056697845459,
+        1.1328778266906738
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "trail_nebula_right",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        -2.176270008087158,
+        0.2073056697845459,
+        1.1328778266906738
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "mount_fb1",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        -0.8490970134735107,
+        -0.04957881569862366,
+        2.514535903930664
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "mount_fb5",
+      "extras": {
+        "NAEV_weapon_mount": "5"
+      },
+      "translation": [
+        -0.8490970134735107,
+        -0.04957881569862366,
+        1.7043503522872925
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "mount_fb4",
+      "extras": {
+        "NAEV_weapon_mount": "4"
+      },
+      "translation": [
+        0.8490970134735107,
+        -0.04957881569862366,
+        1.7043503522872925
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "mount_large2",
+      "extras": {
+        "NAEV_weapon_mount": "2"
+      },
+      "translation": [
+        0.09255766868591309,
+        1.5524218082427979,
+        3.1623775959014893
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
+    },
+    {
+      "name": "mount_large3",
+      "extras": {
+        "NAEV_weapon_mount": "3"
+      },
+      "translation": [
+        -0.09255799651145935,
+        1.5524218082427979,
+        3.1623775959014893
+      ],
+      "scale": [
+        0.28487879037857056,
+        0.28487879037857056,
+        0.28487879037857056
+      ]
     }
   ],
   "scenes": [
@@ -342,9 +607,31 @@
         1,
         2
       ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
     }
   ],
-  "scene": 0,
+  "scene": 2,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],

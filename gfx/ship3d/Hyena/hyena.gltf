@@ -363,7 +363,7 @@
     {
       "name": "trail_left",
       "extras": {
-        "NAEV_trail_generator": "fire-thin"
+        "NAEV_trail_generator": "fireS"
       },
       "translation": [
         40.16942596435547,
@@ -379,7 +379,7 @@
     {
       "name": "trail_right",
       "extras": {
-        "NAEV_trail_generator": "fire-thin"
+        "NAEV_trail_generator": "fireS"
       },
       "translation": [
         -40.16939926147461,
