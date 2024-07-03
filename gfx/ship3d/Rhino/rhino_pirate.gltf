@@ -5,20 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 4872,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 960,
-      "bufferView": 0,
-      "byteOffset": 9744
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 2790,
@@ -32,22 +18,36 @@
         -0.1456032246351242,
         -2.304511308670044
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 2790,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 2790,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4872,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 960,
+      "bufferView": 1,
+      "byteOffset": 9744
     },
     {
       "type": "VEC3",
@@ -85,15 +85,15 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 11664,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 11664,
       "byteLength": 89280,
       "byteStride": 32,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 89280,
+      "byteLength": 11664,
+      "target": 34963
     },
     {
       "buffer": 0,
@@ -253,13 +253,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         }
       ]
     },
@@ -274,7 +274,7 @@
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
         }
       ]
     },
@@ -283,13 +283,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 2,
-          "indices": 0
+          "indices": 3
         }
       ]
     }
@@ -336,6 +336,150 @@
         1.590260624885559
       ],
       "mesh": 2
+    },
+    {
+      "name": "trail_bottom_left",
+      "extras": {
+        "NAEV_trail_generator": "pirate"
+      },
+      "translation": [
+        0.362770140171051,
+        -0.27957892417907715,
+        -4.1272077560424805
+      ],
+      "scale": [
+        0.39195215702056885,
+        0.39195215702056885,
+        0.39195215702056885
+      ]
+    },
+    {
+      "name": "trail_bottom_right",
+      "extras": {
+        "NAEV_trail_generator": "pirate"
+      },
+      "translation": [
+        -0.3627699911594391,
+        -0.27957892417907715,
+        -4.1272077560424805
+      ],
+      "scale": [
+        0.39195215702056885,
+        0.39195215702056885,
+        0.39195215702056885
+      ]
+    },
+    {
+      "name": "trail_top_left",
+      "extras": {
+        "NAEV_trail_generator": "pirate"
+      },
+      "translation": [
+        0.362770140171051,
+        0.23559868335723877,
+        -4.1272077560424805
+      ],
+      "scale": [
+        0.39195215702056885,
+        0.39195215702056885,
+        0.39195215702056885
+      ]
+    },
+    {
+      "name": "trail_top_right",
+      "extras": {
+        "NAEV_trail_generator": "pirate"
+      },
+      "translation": [
+        -0.3627699911594391,
+        0.23559868335723877,
+        -4.1272077560424805
+      ],
+      "scale": [
+        0.39195215702056885,
+        0.39195215702056885,
+        0.39195215702056885
+      ]
+    },
+    {
+      "name": "mount_fb2",
+      "extras": {
+        "NAEV_weapon_mount": "2"
+      },
+      "translation": [
+        0.8787320256233215,
+        0.04212534427642822,
+        -2.001608371734619
+      ],
+      "scale": [
+        0.42105716466903687,
+        0.42105716466903687,
+        0.42105716466903687
+      ]
+    },
+    {
+      "name": "mount_fb3",
+      "extras": {
+        "NAEV_weapon_mount": "3"
+      },
+      "translation": [
+        -0.8787317872047424,
+        0.04212534427642822,
+        -2.001608371734619
+      ],
+      "scale": [
+        0.42105716466903687,
+        0.42105716466903687,
+        0.42105716466903687
+      ]
+    },
+    {
+      "name": "mount_large0",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        0,
+        0.9560065269470215,
+        2.4974987506866455
+      ],
+      "scale": [
+        0.42105716466903687,
+        0.42105716466903687,
+        0.42105716466903687
+      ]
+    },
+    {
+      "name": "mount_large1",
+      "extras": {
+        "NAEV_weapon_mount": "1"
+      },
+      "translation": [
+        0,
+        -1.0299274921417236,
+        -2.0103957653045654
+      ],
+      "scale": [
+        0.42105716466903687,
+        0.42105716466903687,
+        0.42105716466903687
+      ]
+    },
+    {
+      "name": "trail_nebula_top",
+      "extras": {
+        "NAEV_trail_generator": "nebula"
+      },
+      "translation": [
+        0,
+        0.9125717282295227,
+        -2.6096596717834473
+      ],
+      "scale": [
+        0.39195215702056885,
+        0.39195215702056885,
+        0.39195215702056885
+      ]
     }
   ],
   "scenes": [
@@ -351,9 +495,23 @@
         1,
         2
       ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],
