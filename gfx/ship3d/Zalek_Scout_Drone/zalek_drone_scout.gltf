@@ -5,20 +5,6 @@
   },
   "accessors": [
     {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 5016,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 720,
-      "bufferView": 0,
-      "byteOffset": 10032
-    },
-    {
       "type": "VEC3",
       "componentType": 5126,
       "count": 3484,
@@ -32,35 +18,56 @@
         -8.185826301574707,
         -15.301140785217285
       ],
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 0
     },
     {
       "type": "VEC3",
       "componentType": 5126,
       "count": 3484,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
       "count": 3484,
-      "bufferView": 1,
+      "bufferView": 0,
       "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5016,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 384,
+      "bufferView": 1,
+      "byteOffset": 10032
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 336,
+      "bufferView": 1,
+      "byteOffset": 10800
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 496,
+      "count": 256,
       "max": [
         1.25,
-        0.2573968470096588,
+        0.25,
         1.25
       ],
       "min": [
         -1.25,
-        -2.7562360763549805,
+        -0.25,
         -1.25
       ],
       "bufferView": 2,
@@ -69,15 +76,46 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 496,
+      "count": 256,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 496,
+      "count": 256,
       "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 240,
+      "max": [
+        0.9999999403953552,
+        1,
+        0.9999998807907104
+      ],
+      "min": [
+        -0.9999998807907104,
+        -1,
+        -0.9999998807907104
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 240,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 240,
+      "bufferView": 3,
       "byteOffset": 24
     }
   ],
@@ -85,20 +123,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 11472,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 11472,
       "byteLength": 111488,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
+      "byteOffset": 111488,
+      "byteLength": 11472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
       "byteOffset": 122960,
-      "byteLength": 15872,
+      "byteLength": 8192,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131152,
+      "byteLength": 7680,
       "byteStride": 32,
       "target": 34962
     }
@@ -265,13 +310,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 0,
-          "indices": 0
+          "indices": 3
         }
       ]
     },
@@ -280,13 +325,28 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "mode": 4,
           "material": 1,
-          "indices": 1
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "glow_jet",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 5
         }
       ]
     },
@@ -295,13 +355,13 @@
       "primitives": [
         {
           "attributes": {
-            "POSITION": 2,
-            "NORMAL": 3,
-            "TEXCOORD_0": 4
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
           "mode": 4,
           "material": 2,
-          "indices": 0
+          "indices": 3
         }
       ]
     }
@@ -342,6 +402,26 @@
       "mesh": 1
     },
     {
+      "name": "glow_jet",
+      "translation": [
+        0,
+        0,
+        -4.3177595138549805
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.2945190966129303,
+        1.291905403137207,
+        0.2945190966129303
+      ],
+      "mesh": 2
+    },
+    {
       "name": "base_glow",
       "translation": [
         0,
@@ -353,7 +433,40 @@
         0.2633160352706909,
         0.2633160352706909
       ],
-      "mesh": 2
+      "mesh": 3
+    },
+    {
+      "name": "mount",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        -1.5889692306518555,
+        -1.341813087463379,
+        2.236997604370117
+      ]
+    },
+    {
+      "name": "trail_center",
+      "extras": {
+        "NAEV_trail_generator": "zalekXS"
+      },
+      "translation": [
+        0,
+        0,
+        -3.2757205963134766
+      ]
+    },
+    {
+      "name": "trail_nebula",
+      "extras": {
+        "NAEV_trail_generator": "nebulaS"
+      },
+      "translation": [
+        -2.7063231468200684,
+        -1.7236706018447876,
+        0.9427030086517334
+      ]
     }
   ],
   "scenes": [
@@ -374,11 +487,20 @@
       "name": "engine",
       "nodes": [
         1,
-        2
+        2,
+        3
+      ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
+        4,
+        5,
+        6
       ]
     }
   ],
-  "scene": 1,
+  "scene": 0,
   "extensionsUsed": [
     "EXT_texture_webp",
     "KHR_materials_emissive_strength"
