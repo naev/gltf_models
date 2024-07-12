@@ -79,20 +79,6 @@
       "count": 121,
       "bufferView": 2,
       "byteOffset": 24
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 6,
-      "bufferView": 3,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 6,
-      "bufferView": 3,
-      "byteOffset": 72
     }
   ],
   "bufferViews": [
@@ -115,11 +101,6 @@
       "byteLength": 3872,
       "byteStride": 32,
       "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 390992,
-      "byteLength": 144
     }
   ],
   "samplers": [
@@ -228,7 +209,7 @@
   "buffers": [
     {
       "uri": "pythagoras.bin",
-      "byteLength": 391136
+      "byteLength": 390992
     }
   ],
   "materials": [
@@ -365,6 +346,29 @@
       "mesh": 0
     },
     {
+      "name": "Sphere",
+      "scale": [
+        0.699999988079071,
+        0.699999988079071,
+        1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Sphere.002",
+      "translation": [
+        0,
+        0.25,
+        -1.5
+      ],
+      "scale": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.800000011920929
+      ],
+      "mesh": 1
+    },
+    {
       "name": "Base Glow",
       "translation": [
         0,
@@ -377,6 +381,62 @@
         0.75
       ],
       "mesh": 2
+    },
+    {
+      "name": "Sphere.001",
+      "translation": [
+        0,
+        -1.3305023908615112,
+        -3.7383551597595215
+      ],
+      "scale": [
+        0.385065495967865,
+        0.385065495967865,
+        0.5134206414222717
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Sphere.003",
+      "translation": [
+        0,
+        -1.4909461736679077,
+        -2.775691509246826
+      ],
+      "scale": [
+        0.44924303889274597,
+        0.44924303889274597,
+        0.6417757868766785
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Sphere.004",
+      "translation": [
+        0,
+        -3.0307440757751465,
+        -2.436612129211426
+      ],
+      "scale": [
+        0.44924303889274597,
+        0.44924303889274597,
+        0.6417757868766785
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Sphere.005",
+      "translation": [
+        0,
+        -2.87030029296875,
+        -3.399275779724121
+      ],
+      "scale": [
+        0.385065495967865,
+        0.385065495967865,
+        0.5134206414222717
+      ],
+      "mesh": 1
     },
     {
       "name": "mount_fb_left",
@@ -553,17 +613,6 @@
         0.6922690272331238,
         0.6922690272331238
       ]
-    },
-    {
-      "mesh": 1,
-      "extensions": {
-        "EXT_mesh_gpu_instancing": {
-          "attributes": {
-            "TRANSLATION": 8,
-            "SCALE": 9
-          }
-        }
-      }
     }
   ],
   "scenes": [
@@ -577,29 +626,33 @@
       "name": "engine",
       "nodes": [
         1,
-        13
-      ]
-    },
-    {
-      "name": "meta",
-      "nodes": [
         2,
         3,
         4,
         5,
         6,
-        7,
+        7
+      ]
+    },
+    {
+      "name": "meta",
+      "nodes": [
         8,
         9,
         10,
         11,
-        12
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
       ]
     }
   ],
   "scene": 0,
   "extensionsUsed": [
-    "EXT_mesh_gpu_instancing",
     "EXT_texture_webp"
   ],
   "extensionsRequired": [
