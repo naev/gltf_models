@@ -7,16 +7,16 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4863,
+      "count": 1481,
       "max": [
-        4.3567118644714355,
-        4.880187034606934,
-        1.369791030883789
+        4.3211798667907715,
+        7.385059833526611,
+        2.5356600284576416
       ],
       "min": [
-        -4.3567118644714355,
-        -3.7621874809265137,
-        -0.8468334674835205
+        -4.3211798667907715,
+        -7.561629772186279,
+        -2.5792999267578125
       ],
       "bufferView": 0,
       "byteOffset": 0
@@ -24,21 +24,21 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 4863,
+      "count": 1481,
       "bufferView": 0,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 4863,
+      "count": 1481,
       "bufferView": 0,
       "byteOffset": 24
     },
     {
       "type": "SCALAR",
       "componentType": 5123,
-      "count": 10005,
+      "count": 6342,
       "bufferView": 1,
       "byteOffset": 0
     },
@@ -47,21 +47,21 @@
       "componentType": 5123,
       "count": 120,
       "bufferView": 1,
-      "byteOffset": 20012
+      "byteOffset": 12684
     },
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 38,
+      "count": 48,
       "max": [
-        0.25698399543762207,
-        -3.579694986343384,
-        0.46457499265670776
+        0.6162049770355225,
+        -7.061920166015625,
+        -0.23710699379444122
       ],
       "min": [
-        -0.2561970055103302,
-        -4.900341987609863,
-        -0.04860600084066391
+        -0.6161919832229614,
+        -9.039667129516602,
+        -1.4360899925231934
       ],
       "bufferView": 2,
       "byteOffset": 0
@@ -69,14 +69,14 @@
     {
       "type": "VEC3",
       "componentType": 5126,
-      "count": 38,
+      "count": 48,
       "bufferView": 2,
       "byteOffset": 12
     },
     {
       "type": "VEC2",
       "componentType": 5126,
-      "count": 38,
+      "count": 48,
       "bufferView": 2,
       "byteOffset": 24
     }
@@ -85,20 +85,20 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 155616,
+      "byteLength": 47392,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 155616,
-      "byteLength": 20252,
+      "byteOffset": 47392,
+      "byteLength": 12924,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 175868,
-      "byteLength": 1216,
+      "byteOffset": 60316,
+      "byteLength": 1536,
       "byteStride": 32,
       "target": 34962
     }
@@ -116,7 +116,7 @@
       "sampler": 0,
       "extensions": {
         "EXT_texture_webp": {
-          "source": 1
+          "source": 2
         }
       }
     },
@@ -132,7 +132,15 @@
       "sampler": 0,
       "extensions": {
         "EXT_texture_webp": {
-          "source": 2
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
         }
       }
     },
@@ -147,51 +155,69 @@
   ],
   "images": [
     {
-      "name": "preacher_normal",
+      "name": "bedivereGLO",
       "mimeType": "image/webp",
-      "uri": "preacher_normal.webp"
+      "uri": "bedivereGLO.webp"
     },
     {
-      "name": "preacher_diffuse",
+      "name": "AO_bake",
       "mimeType": "image/webp",
-      "uri": "preacher_diffuse.webp"
+      "uri": "AO_bake.webp"
     },
     {
-      "name": "preacher_metallic-preacher_roughness",
+      "name": "bedivere",
       "mimeType": "image/webp",
-      "uri": "preacher_metallic-preacher_roughness.webp"
+      "uri": "bedivere.webp"
     },
     {
-      "name": "gradient_yellow",
+      "name": "gradient_cyan2",
       "mimeType": "image/webp",
-      "uri": "gradient_yellow.webp"
+      "uri": "gradient_cyan2.webp"
+    },
+    {
+      "name": "gradient_cyan",
+      "mimeType": "image/webp",
+      "uri": "gradient_cyan.webp"
     }
   ],
   "buffers": [
     {
-      "uri": "preacher.bin",
-      "byteLength": 177084
+      "uri": "bedivere.bin",
+      "byteLength": 61852
     }
   ],
   "materials": [
     {
-      "name": "baked",
+      "name": "base",
       "pbrMetallicRoughness": {
+        "roughnessFactor": 0.20000000298023224,
+        "metallicFactor": 0.699999988079071,
         "baseColorTexture": {
           "index": 0
-        },
-        "metallicRoughnessTexture": {
-          "index": 2
         }
       },
-      "normalTexture": {
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
         "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
       }
     },
     {
-      "name": "engine_glow_sirius",
+      "name": "engine_glow_nexus",
       "alphaMode": "BLEND",
       "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.3277781903743744,
+          1,
+          1
+        ],
         "roughnessFactor": 0.75,
         "metallicFactor": 0,
         "baseColorTexture": {
@@ -204,13 +230,13 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 4
       }
     }
   ],
   "meshes": [
     {
-      "name": "Cube.003",
+      "name": "base",
       "primitives": [
         {
           "attributes": {
@@ -225,7 +251,7 @@
       ]
     },
     {
-      "name": "Cube.002",
+      "name": "base.001",
       "primitives": [
         {
           "attributes": {
@@ -242,12 +268,7 @@
   ],
   "nodes": [
     {
-      "name": "base_baked",
-      "translation": [
-        0,
-        0,
-        0.5
-      ],
+      "name": "kierkegaard",
       "rotation": [
         0.7071068286895752,
         0,
@@ -257,102 +278,67 @@
       "mesh": 0
     },
     {
-      "name": "engine_glow",
-      "translation": [
-        0,
-        0,
-        0.8383585214614868
-      ],
+      "name": "base glow",
       "rotation": [
         0.7071068286895752,
         0,
         0,
         0.7071068286895752
       ],
-      "scale": [
-        1,
-        1.1390019655227661,
-        1
+      "mesh": 0
+    },
+    {
+      "name": "base glow.001",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
       ],
       "mesh": 1
     },
     {
-      "name": "base_baked",
-      "translation": [
-        0,
-        0,
-        0.5
-      ],
-      "rotation": [
-        0.7071068286895752,
-        0,
-        0,
-        0.7071068286895752
-      ],
-      "mesh": 0
-    },
-    {
       "name": "trail_center",
       "extras": {
-        "NAEV_trail_generator": "sirius"
+        "NAEV_trail_generator": "thin"
       },
       "translation": [
         0,
-        -0.17862804234027863,
-        -3.1831912994384766
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
-      ]
-    },
-    {
-      "name": "mount_med0",
-      "extras": {
-        "NAEV_weapon_mount": "0"
-      },
-      "translation": [
-        2.633645534515381,
-        -0.5794252157211304,
-        -0.3523696959018707
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        0.7710195779800415,
+        -7.250548839569092
       ]
     },
     {
       "name": "trail_nebula_left",
       "extras": {
-        "NAEV_trail_generator": "nebula"
+        "NAEV_trail_generator": "nebulaS"
       },
       "translation": [
-        4.303097248077393,
-        -0.49372899532318115,
-        -1.5978394746780396
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        4.293801784515381,
+        -0.03428459167480469,
+        -2.5908493995666504
+      ]
+    },
+    {
+      "name": "mount_lrg0",
+      "extras": {
+        "NAEV_weapon_mount": "0"
+      },
+      "translation": [
+        2.865640163421631,
+        0.8502587080001831,
+        -2.61309814453125
       ]
     },
     {
       "name": "trail_nebula_right",
       "extras": {
-        "NAEV_trail_generator": "nebula"
+        "NAEV_trail_generator": "nebulaS"
       },
       "translation": [
-        -4.303100109100342,
-        -0.49372899532318115,
-        -1.5978394746780396
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        -4.293799877166748,
+        -0.03428459167480469,
+        -2.5908493995666504
       ]
     },
     {
@@ -361,30 +347,20 @@
         "NAEV_weapon_mount": "2"
       },
       "translation": [
-        1.6489551067352295,
-        -0.4120278060436249,
-        -0.007727933116257191
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        3.3821945190429688,
+        0.4940144717693329,
+        -2.61309814453125
       ]
     },
     {
-      "name": "mount_med1",
+      "name": "mount_lrg1",
       "extras": {
         "NAEV_weapon_mount": "1"
       },
       "translation": [
-        -2.633650064468384,
-        -0.5794252157211304,
-        -0.3523696959018707
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        -2.8656399250030518,
+        0.8502587080001831,
+        -2.61309814453125
       ]
     },
     {
@@ -393,30 +369,9 @@
         "NAEV_weapon_mount": "3"
       },
       "translation": [
-        -1.648959994316101,
-        -0.4120278060436249,
-        -0.007727933116257191
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
-      ]
-    },
-    {
-      "name": "mount_small\\",
-      "extras": {
-        "NAEV_weapon_mount": "4"
-      },
-      "translation": [
-        0,
-        -0.343099445104599,
-        5.378529071807861
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
+        -3.382189989089966,
+        0.4940144717693329,
+        -2.61309814453125
       ]
     }
   ],
@@ -449,12 +404,11 @@
         6,
         7,
         8,
-        9,
-        10
+        9
       ]
     }
   ],
-  "scene": 0,
+  "scene": 1,
   "extensionsUsed": [
     "EXT_texture_webp"
   ],
