@@ -255,7 +255,7 @@
       "name": "tex0_0",
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.5,
-        "metallicFactor": 0.699999988079071,
+        "metallicFactor": 0.5,
         "baseColorTexture": {
           "index": 0
         }
