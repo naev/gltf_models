@@ -281,12 +281,12 @@
     {
       "name": "gradient_pale",
       "mimeType": "image/webp",
-      "uri": "gradient_pale.webp"
+      "uri": "../textures/gradient_pale.webp"
     },
     {
       "name": "gradient_pale_striped",
       "mimeType": "image/webp",
-      "uri": "gradient_pale_striped.webp"
+      "uri": "../textures/gradient_pale_striped.webp"
     }
   ],
   "buffers": [

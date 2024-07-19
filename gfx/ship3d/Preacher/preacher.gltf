@@ -164,7 +164,7 @@
     {
       "name": "gradient_yellow",
       "mimeType": "image/webp",
-      "uri": "gradient_yellow.webp"
+      "uri": "../textures/gradient_yellow.webp"
     }
   ],
   "buffers": [

@@ -2025,32 +2025,32 @@
     {
       "name": "hull_VDarkGray",
       "mimeType": "image/webp",
-      "uri": "hull_VDarkGray.webp"
+      "uri": "../textures/hull_VDarkGray.webp"
     },
     {
       "name": "Cracked_Flesh_DarkRed",
       "mimeType": "image/webp",
-      "uri": "Cracked_Flesh_DarkRed.webp"
+      "uri": "../textures/Cracked_Flesh_DarkRed.webp"
     },
     {
       "name": "RedBrownVeinedFlesh_glow",
       "mimeType": "image/webp",
-      "uri": "RedBrownVeinedFlesh_glow.webp"
+      "uri": "../textures/RedBrownVeinedFlesh_glow.webp"
     },
     {
       "name": "RedBrownVeinedFlesh",
       "mimeType": "image/webp",
-      "uri": "RedBrownVeinedFlesh.webp"
+      "uri": "../textures/RedBrownVeinedFlesh.webp"
     },
     {
       "name": "OrangeExaust",
       "mimeType": "image/webp",
-      "uri": "OrangeExaust.webp"
+      "uri": "../textures/OrangeExaust.webp"
     },
     {
       "name": "gradient_soromid",
       "mimeType": "image/webp",
-      "uri": "gradient_soromid.webp"
+      "uri": "../textures/gradient_soromid.webp"
     }
   ],
   "buffers": [

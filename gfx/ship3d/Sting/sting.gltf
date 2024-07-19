@@ -232,7 +232,7 @@
     {
       "name": "zalek_glow",
       "mimeType": "image/webp",
-      "uri": "zalek_glow.webp"
+      "uri": "../textures/zalek_glow.webp"
     }
   ],
   "buffers": [

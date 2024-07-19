@@ -897,7 +897,7 @@
     {
       "name": "gradient_soromid",
       "mimeType": "image/webp",
-      "uri": "gradient_soromid.webp"
+      "uri": "../textures/gradient_soromid.webp"
     }
   ],
   "buffers": [

@@ -443,12 +443,12 @@
     {
       "name": "gradient_cyan",
       "mimeType": "image/webp",
-      "uri": "gradient_cyan.webp"
+      "uri": "../textures/gradient_cyan.webp"
     },
     {
       "name": "gradient_blue_orange",
       "mimeType": "image/webp",
-      "uri": "gradient_blue_orange.webp"
+      "uri": "../textures/gradient_blue_orange.webp"
     }
   ],
   "buffers": [

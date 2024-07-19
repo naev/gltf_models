@@ -241,7 +241,7 @@
     {
       "name": "gradient_pirate",
       "mimeType": "image/webp",
-      "uri": "gradient_pirate.webp"
+      "uri": "../textures/gradient_pirate.webp"
     }
   ],
   "buffers": [

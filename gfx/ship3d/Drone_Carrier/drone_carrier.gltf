@@ -230,7 +230,7 @@
     {
       "name": "gradient_purple",
       "mimeType": "image/webp",
-      "uri": "gradient_purple.webp"
+      "uri": "../textures/gradient_purple.webp"
     },
     {
       "name": "GLO_bake",

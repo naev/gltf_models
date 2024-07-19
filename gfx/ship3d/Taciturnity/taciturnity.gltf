@@ -190,7 +190,7 @@
     {
       "name": "gradient_pale",
       "mimeType": "image/webp",
-      "uri": "gradient_pale.webp"
+      "uri": "../textures/gradient_pale.webp"
     }
   ],
   "buffers": [

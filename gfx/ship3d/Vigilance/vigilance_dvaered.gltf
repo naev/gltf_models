@@ -198,7 +198,7 @@
     {
       "name": "gradient_orange",
       "mimeType": "image/webp",
-      "uri": "gradient_orange.webp"
+      "uri": "../textures/gradient_orange.webp"
     },
     {
       "name": "Vigilance2",

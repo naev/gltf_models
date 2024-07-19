@@ -230,12 +230,12 @@
     {
       "name": "gradient_cyan2",
       "mimeType": "image/webp",
-      "uri": "gradient_cyan2.webp"
+      "uri": "../textures/gradient_cyan2.webp"
     },
     {
       "name": "gradient_cyan",
       "mimeType": "image/webp",
-      "uri": "gradient_cyan.webp"
+      "uri": "../textures/gradient_cyan.webp"
     }
   ],
   "buffers": [
